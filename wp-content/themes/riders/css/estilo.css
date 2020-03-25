@@ -1,0 +1,208 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700,900&display=swap');
+
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+
+#footer-top {
+    padding: 40px 0 15px;
+}
+
+
+#reportes-olas #titulo-olas::before {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: '';
+    display: block;
+    top: 23px;
+    position: absolute;
+    z-index: 1;
+}
+
+#reportes-olas #titulo-olas h3 {
+    /* font-family: "Oswald"; */
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    display: table;
+    margin: 10px auto;
+    z-index: 5;
+    position: relative;
+    padding: 0 18px;
+}
+
+.bg-black
+{
+    background-color: black !important;
+}
+
+.bg-riders
+{
+    background-color: #062a54 !important;
+}
+
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.btn-riders
+{
+    font-size: 14px;
+    background-color: #062a54 !important;
+    color: white;
+    border-radius: 0px;
+}
+
+#btn-ver-departamentos:hover,
+#btn-ver-departamentos:focus
+{
+    background-color: #333333 !important;
+    color: white;
+}
+
+
+
+/* ================== */
+/* NAVBAR */
+/* ================== */
+nav ul li a.nav-link:hover,
+nav ul li a.nav-link:focus,
+nav ul li a.nav-link:active,
+nav .navbar-nav .active>.nav-link,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show,
+nav .navbar-nav .show>.nav-link
+{
+    color: white !important;
+}
+/* ================== */
+
+
+
+
+
+
+
+/* ================== */
+/* FOOTER */
+/* ================== */
+footer a
+{
+    color: white;
+    font-size: 12px;
+}
+
+footer p
+{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+footer #texto-informativo
+{
+    font-size: 10px;
+}
+/* ================== */
+
+
+
+/* ================== */
+/* PAGE DEPARTAMENTOS */
+/* ================== */
+#departamentos p
+{
+    color: #182D45;
+}
+/* ================== */
+
+
+
+
+
+/* ================== */
+/* PAGE ENTORNO */
+/* ================== */
+#entorno p
+{
+    font-size: 15px;
+}
+
+
+
+
+
+.img-cover
+{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    background-position: center center;
+}
+
+
+.img-contain
+{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    background-position: center center;
+}
+
+
+
+#slider-riders
+{
+    min-height:600px;
+}
+
+
+#inicio_descubre
+{
+    background-image: url('../img/home-inicio.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100vh;
+    background-position: center center;
+
+}
+
+
+
+#inicio_proyecto
+{
+    background-image: url('../img/wallpaper-concreto.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100vh;
+    background-position: center center;
+
+}
+
+@media (min-width: 1024px)
+{
+    #inicio_descubre {
+        background-attachment: fixed;
+    }
+}
