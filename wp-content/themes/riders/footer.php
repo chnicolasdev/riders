@@ -1,6 +1,7 @@
     <!-- ======= Footer ======= -->
-    <footer class="bg-dark text-white">
-        <div id="footer-top" class="pt-2">
+    <section class="bg-dark text-white pb-0" id="contacto">
+        <footer id="footer-top" class="pt-2">
+            
             <div class="container">
                 <div class="row mt-3">
                     <div class="col-md-3 my-auto">
@@ -60,39 +61,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="reportes-olas">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center" id="titulo-olas">
-                        <h3>Reportes de Olas</h3>
-                    </div>
-                    <div class="col-lg-12 d-flex">
-                        <div class="col text-center">
-                            <a href="http://es.magicseaweed.com/Derecharcha-Surf-Report/3372/" target="_blank">
-                                <img src="https://www.surftotoralillo.cl/wp-content/themes/surftotoralillo/assets/img/logo1.png" />
-                            </a>
-                        </div>
-                        <div class="col text-center">
-                            <a href="http://www.shoa.cl/nuestros-servicios/mareas#1" target="_blank">
-                                <img src="https://www.surftotoralillo.cl/wp-content/themes/surftotoralillo/assets/img/logo2.png" />
-                            </a>
-                        </div>
-                        <div class="col text-center">
-                            <a href="http://www.windguru.cz/es/index.php?sc=194074&sty=m_spot" target="_blank">
-                                <img src="https://www.surftotoralillo.cl/wp-content/themes/surftotoralillo/assets/img/logo3.png" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </footer>
 
         <!-- SUBIR -->
         <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 
-    </footer>
-        
+    </section>
 
     <?php wp_footer(); ?>
 

@@ -49,9 +49,9 @@
 						<li>
 							<a href="#videos">Videos</a>
 						</li>
-						<li>
-							<a href="#noticias">Noticias</a>
-						</li>
+						<!-- <li>
+							<a href="#reporte">Reporte</a>
+						</li> -->
 						<!-- <li>
 							<a href="#team">Team</a>
 						</li> -->
