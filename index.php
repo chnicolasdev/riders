@@ -12,17 +12,6 @@
     </head>
     <body>
          
-        <!-- <div class="container-fluid" id="varias">
-            <div class="row h-100">
-                <div class="col-12 my-auto text-center">
-                    <h1 class="text-white display-3 font-weight-bold">SITIO EN</h1>
-                    <h1 class="text-white display-3 font-weight-bold">CONSTRU<wbr>CCIÓN</h1>
-                    <h3 class="text-white">gracias por visitarnos</h3>
-                    <img src="img/logo.svg" class="img-fluid w-50" alt="Logo Escuela de Surf Riders">
-                </div>
-
-            </div>
-        </div> -->
 
         <div class="container-fluid">
 
@@ -31,11 +20,11 @@
                 <div class="col-12 bg-image">
                 </div>
 
-                <div class="col-12 my-auto text-center bg-text">
-                    <h1 class="text-white display-3 font-weight-bold">SITIO EN</h1>
-                    <h1 class="text-white display-3 font-weight-bold">CONSTRU<wbr>CCIÓN</h1>
+                <div class="col-12 text-center bg-text">
+                    <h1 class="text-white font-weight-bold">SITIO EN</h1>
+                    <h1 class="text-white font-weight-bold">CONSTR<wbr>UCCIÓN</h1>
                     <h3 class="text-white">gracias por visitarnos</h3>
-                    <img src="img/logo.svg" class="img-fluid w-50" alt="Logo Escuela de Surf Riders">
+                    <img src="img/logo.png" class="img-fluid w-25" alt="Logo Escuela de Surf Riders">
                 </div>
 
             </div>
