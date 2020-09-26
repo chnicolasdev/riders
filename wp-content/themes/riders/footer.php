@@ -1,4 +1,6 @@
     <!-- ======= Footer ======= -->
+
+        <?php /*
     <section class="bg-dark text-white pb-0" id="contacto">
         <footer id="footer-top" class="pt-2">
             
@@ -62,6 +64,8 @@
                 </div>
             </div>
         </footer>
+
+        <?php */ ?>
 
         <!-- SUBIR -->
         <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>

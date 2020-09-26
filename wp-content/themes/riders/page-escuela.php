@@ -16,7 +16,7 @@
 				<div class="col-12 col-md-6">
 					<div class="col-12 bg-info">
 						<div class="col-lg-6 pt-4 pt-lg-0 text-center">
-							<h1>Contacto</h1>
+							<h1>Escuela</h1>
 						</div>
 					</div>
 					

@@ -35,33 +35,31 @@
 					<a href="index.php"><img src="<?php bloginfo('template_url') ?>/img/logo-nav.jpg" alt="" class="img-fluid"></a>
 				</div>
 
-				<nav class="nav-menu d-none d-lg-block">
+				<nav class="nav-menu d-none d-lg-block bg-dark">
 					<ul>
-						<li class="active">
-							<a href="/riders">Inicio</a>
+
+						<li class="nav-item <?php if($url_actual == '/riders/inicio/' || $url_actual == '/riders/') { echo "active"; } ?>">
+							<a class="nav-link" href="inicio">Inicio <span class="sr-only">Inicio</span></a>
 						</li>
-						<li>
-							<a href="#quienes_somos">Quiénes Somos</a>
+
+						<li class="nav-item <?php if($url_actual == '/riders/escuela/') { echo "active"; } ?>">
+							<a class="nav-link" href="escuela">Escuela Surf</a>
 						</li>
-						<li>
-							<a href="#clases">Clases</a>
+						<li class="nav-item <?php if($url_actual == '/riders/surfcamp/') { echo "active"; } ?>">
+							<a class="nav-link" href="surfcamp">Surf-Camp</a>
 						</li>
-						<li>
-							<a href="#videos">Videos</a>
+						<li class="nav-item <?php if($url_actual == '/riders/ubicacion/') { echo "active"; } ?>">
+							<a class="nav-link" href="ubicacion">Ubicación</a>
 						</li>
-						<!-- <li>
-							<a href="#reporte">Reporte</a>
-						</li> -->
-						<!-- <li>
-							<a href="#team">Team</a>
-						</li> -->
-						<li>
-							<a href="#contacto">Contacto</a>
+						<li class="nav-item <?php if($url_actual == '/riders/contacto/') { echo "active"; } ?>">
+							<a class="nav-link" href="contacto">Contacto</a>
 						</li>
+
+						
 					</ul>
-				</nav><!-- .nav-menu -->
+				</nav>
 			</div>
-		</header><!-- End Header -->
+		</header>
 
 
 
