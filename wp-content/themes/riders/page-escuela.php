@@ -2,7 +2,67 @@
 		SE LLAMA AL HEADER.PHP
 =======================================-->
 <?php get_header(); ?>
+<section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+	<div id="heroCarousel" class="px-0 container-fluid carousel carousel-fade" data-ride="carousel">
 
+	
+		<?php
+		$argsSliderInicio = array(
+				'cat' => 2,
+				'type' => 'post',
+				'posts_per_page' => 4
+		);
+
+		query_posts($argsSliderInicio);
+
+		$ultimaSliderInicio = new WP_Query($argsSliderInicio);
+		if ( $ultimaSliderInicio->have_posts() ):
+			$i=0;
+			while($ultimaSliderInicio->have_posts() ): $ultimaSliderInicio->the_post(); 
+			// echo $i;
+			?>          
+				<div class="carousel-item <?php if($i==0){echo "active";}?>" style="background-size:cover;background-image:url('<?php print_r(get_the_post_thumbnail_url()); ?>');">
+					<div class="carousel-container">
+						<h2 class="animated fadeInDown">
+							<?php the_title(); ?>
+						</h2>
+						<p class="animated fadeInUp"><?php the_content(); ?></p>
+						<!-- <a href="#quienes_somos" class="btn-get-started animated fadeInUp scrollto">¿Quiénes Somos?</a> -->
+					</div>
+				</div>
+			<?php $i++; endwhile; ?>
+		<?php endif;
+		wp_reset_postdata();
+		?>
+		
+			<a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+
+		</div>
+
+		<svg class="bg-primary hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+			<defs>
+				<path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+			</defs>
+			<g class="wave1">
+				<use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+			</g>
+			<g class="wave2">
+				<use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+			</g>
+			<g class="wave3">
+				<use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+			</g>
+		</svg>
+
+	</section><!-- End Hero -->
 
 
 <main id="main">
