@@ -72,20 +72,20 @@
     <!-- seccion mision vision o similares -->
     <section id="" class="">
         <div class="container-fluid">
-            <div class="row ">
+            <div class="row">
                 <div class=" col-sm-12 col-lg-6 ">
-                    <div class="row align-items-center ">
+                    <div class="row align-items-center  ">
                         <div class="col-sm-12 col-md-6 p-4 ">
                             <h4 class="text-center">Lorem, ipsum dolor.</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi tempora asperiores
                                 aperiam quas velit in sed magnam alias corrupti quidem.</p>
                         </div>
                         <div class="col-sm-12 col-md-6 d-sm-none d-md-block  p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="img-fluid  ">
+                            <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="img-fluid fondo-cuadro  ">
                         </div>
 
                         <div class="col-sm-12 col-md-6 d-none d-sm-block p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="img-fluid  ">
+                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="fondo-cuadro img-fluid  ">
                         </div>
                         <div class="col-sm-12 col-md-6 p-4 ">
                             <h4 class="text-center">Lorem, ipsum.</h4>
@@ -103,39 +103,57 @@
         </div>
     </section>
     <!-- seccion caracteristicas o similares -->
-    <section class="container bg-light">
-        <div class="row align-items-center clearfix">
-            <div class="col-12 col-md-4 my-3 p-3 bg-warning ">
-                <div class="box text-center">
-                    <i class="fa fa-address-book" aria-hidden="true"></i>
-                    <h4 ">Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+    <section class="caracteristicas bg-light">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col-12">
+                    <h2>servicios o por el estilo</h2>
                 </div>
-			</div>
-			<div class="col-12 col-md-4 my-3 p-3 bg-warning ">
-                <div class="box text-center">
-                    <i class="fa fa-address-book" aria-hidden="true"></i>
-                    <h4 ">Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+            </div>
+            <div class="row text-center">
+                <div class=" col-md-4 mb-4 ">
+                    <div class="box p-4 rounded ">
+                    <i class="icofont-wind-waves"></i>
+                        <h4 class="">Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+			    </div>
+                <div class=" col-md-4 mb-4">
+                    <div class="box p-4 rounded">
+                    <i class="icofont-wave"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+                    </div>
+			    </div>
+                <div class=" col-md-4 mb-4 ">
+                    <div class="box p-4 rounded">
+                    <i class="icofont-swimmer"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit amet.</p>
+                    </div>
+			    </div>
+                <div class=" col-md-4 mb-4 ">
+                    <div class="box p-4 rounded">
+                    <i class="icofont-wind-waves"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+                    </div>
+			    </div>
+                <div class=" col-md-4 mb-4">
+                    <div class="box p-4 rounded">
+                    <i class="icofont-swimmer"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
+                    </div>
                 </div>
-			</div>
-			<div class="col-12 col-md-4 my-3 p-3 bg-warning ">
-                <div class="box text-center">
-                    <i class="fa fa-address-book" aria-hidden="true"></i>
-                    <h4 ">Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                </div>
-			</div>
-			<div class="col-12 col-md-4 my-3 p-3 bg-warning ">
-                <div class="box text-center">
-                    <i class="fa fa-address-book" aria-hidden="true"></i>
-                    <h4 ">Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                </div>
-			</div>
-			
-			
-          
+                <div class=" col-md-4 mb-4">
+                    <div class="box p-4 rounded">
+                    <i class="icofont-wave"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+                    </div>
+			    </div>
+             </div>
         </div>
     </section>
     <?php
@@ -153,25 +171,25 @@
 
 				while($ultimaQuienesSomosInicio->have_posts() ): $ultimaQuienesSomosInicio->the_post(); ?>
 
-    <div class="section-title pb-lg-0" data-aos="zoom-out">
-        <h2>Acerca de Nosotros</h2>
-        <p><?php the_title();?></p>
-    </div>
+    <div class=" section-title pb-lg-0" data-aos="zoom-out">
+                            <h2>Acerca de Nosotros</h2>
+                            <p><?php the_title();?></p>
+                    </div>
 
-    <div class="row content" data-aos="fade-up">
-        <div class="col-lg-6 my-auto">
-            <p><?php the_content();?></p>
-        </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 text-center">
-            <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75"
-                alt="Imagen de Quiénes Somos">
-            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
-        </div>
-    </div>
+                    <div class="row content" data-aos="fade-up">
+                        <div class="col-lg-6 my-auto">
+                            <p><?php the_content();?></p>
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 text-center">
+                            <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75"
+                                alt="Imagen de Quiénes Somos">
+                            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+                        </div>
+                    </div>
 
 
-    <?php endwhile; ?>
-    <?php endif;
+                    <?php endwhile; ?>
+                    <?php endif;
 			wp_reset_postdata();
 			*/
 			?>
