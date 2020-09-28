@@ -2,6 +2,7 @@
 		SE LLAMA AL HEADER.PHP
 =======================================-->
 <?php get_header(); ?>
+
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
 	<div id="heroCarousel" class="px-0 container-fluid carousel carousel-fade" data-ride="carousel">
 
@@ -70,28 +71,28 @@
     <section id="" class="">
         <div class="container-fluid">
             <div class="row ">
-                <div class="col-12 col-md-6 ">
-                    <div class="row align-items-center">
-                        <div class="col-6 p-4 text-center">
-                            <h4>Lorem, ipsum dolor.</h4>
+                <div class=" col-sm-12 col-lg-6 ">
+                    <div class="row align-items-center ">
+                        <div class="col-sm-12 col-md-6 p-4 ">
+                            <h4 class="text-center">Lorem, ipsum dolor.</h4>
 							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi tempora asperiores aperiam quas velit in sed magnam alias corrupti quidem.</p>
                           
                         </div>
-                        <div class="col-6 p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid  ">
+                        <div class="col-sm-12 col-md-6 d-sm-none d-md-block  p-0">
+                            <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="img-fluid  ">
                         </div>
 
-                        <div class="col-6 p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid  ">
+                        <div class="col-sm-12 col-md-6 d-none d-sm-block p-0">
+                            <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="img-fluid  ">
                         </div>
-                        <div class="col-6  p-4 text-center">
-                            <h4>Lorem, ipsum.</h4>
+                        <div class="col-sm-12 col-md-6 p-4 ">
+                            <h4 class="text-center">Lorem, ipsum.</h4>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque architecto amet dignissimos earum perspiciatis natus, qui ipsum illum accusamus recusandae, sequi molestias enim, magni minus dolorum reiciendis similique nisi numquam.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 p-0">
-                    <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid shadow">
+                <div class=" col-md-6 col-sm-12 col-lg-6 d-none d-lg-block p-0 ">
+                    <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid">
                     <!-- <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75" alt="Imagen de Quiénes Somos"> -->
                 </div>
 
