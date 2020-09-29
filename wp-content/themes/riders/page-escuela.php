@@ -160,7 +160,67 @@
             </div>
         </div>
     </section>
-
+<!----------------- seccion precios ------------------------->
+<section class="precios py-5" id="precios">
+        <div class="container py-4">
+            <h2 class=" text-center pb-4 text-primary text-uppercase">precios</h2>
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal text-uppercase">clase particular</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$18.000<small class="text-muted">/ Clase</small>
+                        </h1>
+                        <ul class="list-format mt-3 mb-4">
+                            <li>1 1/2 hrs duracion de la clase</li>
+                            <li>incluye traje y tabla</li>
+                            <li>orientacion por profesionales</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <!-- Consta de 1 1/2 hrs. donde te pasamos traje,  tabla e Instructor. Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela de surf Riders.  -->
+                        </ul>
+                        <button type="button" class="botones btn btn-lg btn-block btn-primary">Más
+                            Informacion</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal text-uppercase">clase grupal</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$12.000 <small class="text-muted">/ Clase</small>
+                        </h1>
+                        <ul class="list-format mt-3 mb-4">
+                            <li>clase grupal 30 personas</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                        <button type="button" class="botones btn btn-lg btn-block btn-primary">Más
+                            Informacion</button>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal text-uppercase">6 clases + 3 clases prácticas</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$80.000 <small class="text-muted">/ Clase</small>
+                        </h1>
+                        <ul class="list-format mt-3 mb-4">
+                            <li>clase Lorem, ipsum dolor.personas</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <!-- Curso de 6 clases de surf con instructor  más 3 clases en que el alumno ingresa al mar de forma independiente.  -->
+                        </ul>
+                        <button type="button" class="botones btn btn-lg btn-block btn-primary">Más
+                            Informacion</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- seccion llamado a la accion -->
     <section class="m-0 p-0">
         <div class="container-fluid">

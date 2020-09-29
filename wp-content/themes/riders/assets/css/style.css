@@ -1652,3 +1652,35 @@ h4{
 .pie{
   background-color: #034178;
 }
+footer h2{
+  color: #037b91;
+}
+footer a{
+  color: white;
+}
+footer ul,li{
+  list-style: none;
+  padding-left: 0px;
+}
+.social-media{
+  width: 50%;
+  display: flex;
+  justify-content:flex-end;
+}
+.social-media-icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height:60px ;
+  text-align: center;
+  color: #e6dee9;
+}
+.social-media-icon:hover{
+  background: #0360b185;
+  color: #ff867a;
+  border-radius: 10%;
+}
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}
