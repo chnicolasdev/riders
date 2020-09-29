@@ -1634,10 +1634,21 @@ h4{
   background-color:#037b91 ;
 }
 
-/* @media screen and (max-width: 991px) and (min-width:768px) {
-.fondo-cuadro{
-  height: 366px;;
+/* ----------FOOTER ---------------*/
+#mapa {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
 }
- 
- } */
 
+#mapa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.pie{
+  background-color: #034178;
+}
