@@ -102,58 +102,110 @@
             </div>
         </div>
     </section>
+
     <!-- seccion caracteristicas o similares -->
-    <section class="caracteristicas bg-light">
+    <section class="caracteristicas bg-light m-0 pb-3">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col-12">
-                    <h2>servicios o por el estilo</h2>
+                    <h2 class="text-uppercase">servicios o por el estilo</h2>
                 </div>
             </div>
             <div class="row text-center">
                 <div class=" col-md-4 mb-4 ">
                     <div class="box p-4 rounded ">
-                    <i class="icofont-wind-waves"></i>
+                        <i class="icofont-wind-waves"></i>
                         <h4 class="">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    </div>
-			    </div>
-                <div class=" col-md-4 mb-4">
-                    <div class="box p-4 rounded">
-                    <i class="icofont-wave"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                    </div>
-			    </div>
-                <div class=" col-md-4 mb-4 ">
-                    <div class="box p-4 rounded">
-                    <i class="icofont-swimmer"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit amet.</p>
-                    </div>
-			    </div>
-                <div class=" col-md-4 mb-4 ">
-                    <div class="box p-4 rounded">
-                    <i class="icofont-wind-waves"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                    </div>
-			    </div>
-                <div class=" col-md-4 mb-4">
-                    <div class="box p-4 rounded">
-                    <i class="icofont-swimmer"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit
+                            amet consectetur adipisicing.</p>
                     </div>
                 </div>
                 <div class=" col-md-4 mb-4">
                     <div class="box p-4 rounded">
-                    <i class="icofont-wave"></i>
+                        <i class="icofont-wave"></i>
                         <h4>Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
                     </div>
-			    </div>
-             </div>
+                </div>
+                <div class=" col-md-4 mb-4 ">
+                    <div class="box p-4 rounded">
+                        <i class="icofont-swimmer"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit
+                            amet.</p>
+                    </div>
+                </div>
+                <div class=" col-md-4 mb-4 ">
+                    <div class="box p-4 rounded">
+                        <i class="icofont-wind-waves"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+                    </div>
+                </div>
+                <div class=" col-md-4 mb-4">
+                    <div class="box p-4 rounded">
+                        <i class="icofont-swimmer"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum, dolor sit
+                            amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
+                    </div>
+                </div>
+                <div class=" col-md-4 mb-4">
+                    <div class="box p-4 rounded">
+                        <i class="icofont-wave"></i>
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion llamado a la accion -->
+    <section class="m-0 p-0">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="jumbotron my-0">
+                        <h1 class="display-4">Hello, world!</h1>
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                            attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger
+                            container.</p>
+                        <div class="btn-cta text-center mt-5"><a class="btn btn-primary btn-lg" href="#"
+                                role="button">Quiero saber más</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------- galeria ------------------>
+    <section class="p-5 m-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-0">
+                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="fondo-cuadro img-fluid  ">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="fondo-cuadro img-fluid  ">
+                </div>
+                <div class="col-md-4 p-0">
+                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                </div>
+            </div>
         </div>
     </section>
     <?php
@@ -172,24 +224,24 @@
 				while($ultimaQuienesSomosInicio->have_posts() ): $ultimaQuienesSomosInicio->the_post(); ?>
 
     <div class=" section-title pb-lg-0" data-aos="zoom-out">
-                            <h2>Acerca de Nosotros</h2>
-                            <p><?php the_title();?></p>
-                    </div>
+        <h2>Acerca de Nosotros</h2>
+        <p><?php the_title();?></p>
+    </div>
 
-                    <div class="row content" data-aos="fade-up">
-                        <div class="col-lg-6 my-auto">
-                            <p><?php the_content();?></p>
-                        </div>
-                        <div class="col-lg-6 pt-4 pt-lg-0 text-center">
-                            <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75"
-                                alt="Imagen de Quiénes Somos">
-                            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
-                        </div>
-                    </div>
+    <div class="row content" data-aos="fade-up">
+        <div class="col-lg-6 my-auto">
+            <p><?php the_content();?></p>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 text-center">
+            <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75"
+                alt="Imagen de Quiénes Somos">
+            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+        </div>
+    </div>
 
 
-                    <?php endwhile; ?>
-                    <?php endif;
+    <?php endwhile; ?>
+    <?php endif;
 			wp_reset_postdata();
 			*/
 			?>

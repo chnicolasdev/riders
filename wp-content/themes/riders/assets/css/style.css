@@ -1593,8 +1593,20 @@ section {
   /*--------------------------------------------------------------
 # seccion escuela de surf
 --------------------------------------------------------------*/
+h1,h2{
+  color: #032F5F;
+}
+i{
+  color: #09d1f496;
+}
+h4{
+  color: #033D74;
+}
+.box p{
+  color:#032F5F
+}
 .box{
-  background-color: rgb(230, 238, 238);
+  background-color: rgb(223, 238, 238);
   height: 250px;
 }
 .caracteristicas i{
@@ -1614,6 +1626,14 @@ section {
  }
 
 }
+.btn-cta .btn-primary{
+  background-color: #032F5F ;
+  
+}
+.btn-cta .btn-primary:hover{
+  background-color:#037b91 ;
+}
+
 /* @media screen and (max-width: 991px) and (min-width:768px) {
 .fondo-cuadro{
   height: 366px;;
