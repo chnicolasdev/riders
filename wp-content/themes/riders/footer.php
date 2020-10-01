@@ -35,7 +35,7 @@
                             <hr>
 
                             <div id="redes-sociales" class="pr-5">
-                                <h3 class="h4"></i> Siguenos en:</h3>
+                                <h3 class="h4"></i> Síguenos en:</h3>
                                 <a href="https://www.instagram.com/escueladesurfriders/" class="social-media-icon"><i class="icofont-instagram"></i></a>
                                 <a href="https://www.facebook.com/escueladesurfriders" class="social-media-icon"><i class="icofont-facebook"></i></a>
                             </div>
@@ -96,7 +96,8 @@
                     <div class="col-12 bg-primary text-center">
 
                         <div class="footer-copyright m-0 py-3">
-                            &copy <?php echo date('Y');?> <?php bloginfo( 'name' ); ?>
+                            <p> &copy Copyright <?php echo date('Y');?> | <?php bloginfo( 'name' ); ?> | Todos los derechos Reservados</p>
+                            
                         </div>
                     </div>
                 </div>

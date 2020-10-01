@@ -69,7 +69,7 @@
 
 
 <main id="main">
-    <!-- seccion mision vision o similares -->
+    <!-- sección misión visión o similares -->
     <section id="" class="">
         <div class="container-fluid">
             <div class="row">
@@ -103,7 +103,7 @@
         </div>
     </section>
 
-    <!-- seccion caracteristicas o similares -->
+    <!-- sección características o similares -->
     <section class="caracteristicas bg-light m-0 pb-3">
         <div class="container">
             <div class="row text-center mb-3">
@@ -160,14 +160,14 @@
             </div>
         </div>
     </section>
-<!----------------- seccion precios ------------------------->
-<section class="precios py-5" id="precios">
+    <!----------------- sección precios ------------------------->
+    <section class="precios py-5" id="precios">
         <div class="container py-4">
-            <h2 class=" text-center pb-4 text-primary text-uppercase">precios</h2>
+            <h2 class=" text-center pb-4 text-uppercase">precios</h2>
             <div class="card-deck mb-3 text-center">
                 <div class="card mb-4 shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal text-uppercase">clase particular</h4>
+                    <div class="card-header" style="height:80px">
+                        <h4 class="my-auto font-weight-normal text-uppercase">clase particular</h4>
                     </div>
                     <div class="card-body">
                         <h1 class="card-title pricing-card-title">$18.000<small class="text-muted">/ Clase</small>
@@ -184,11 +184,11 @@
                     </div>
                 </div>
                 <div class="card mb-4 shadow">
-                    <div class="card-header">
-                        <h4 class="my-0 font-weight-normal text-uppercase">clase grupal</h4>
+                    <div class="card-header" style="height:80px">
+                        <h4 class="my-auto font-weight-normal text-uppercase">clase grupal</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$12.000 <small class="text-muted">/ Clase</small>
+                        <h1 class="card-title pricing-card-title">$12.000 <small class="text-muted">/Clase</small>
                         </h1>
                         <ul class="list-format mt-3 mb-4">
                             <li>clase grupal 30 personas</li>
@@ -201,11 +201,11 @@
                     </div>
                 </div>
                 <div class="card mb-4 shadow">
-                    <div class="card-header">
+                    <div class="card-header" style="height:80px">
                         <h4 class="my-0 font-weight-normal text-uppercase">6 clases + 3 clases prácticas</h4>
                     </div>
                     <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$80.000 <small class="text-muted">/ Clase</small>
+                        <h1 class="card-title pricing-card-title">$80.000 <small class="text-muted"></small>
                         </h1>
                         <ul class="list-format mt-3 mb-4">
                             <li>clase Lorem, ipsum dolor.personas</li>
@@ -222,17 +222,17 @@
         </div>
     </section>
     <!-- seccion llamado a la accion -->
-    <section class="m-0 p-0">
+    <section class=" m-0 p-0">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
                     <div class="jumbotron my-0">
-                        <h1 class="display-4">Hello, world!</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                            attention to featured content or information.</p>
+                        <h1 class="display-4">Escuela de surf riders</h1>
+                        <p class="lead">Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela
+                            de surf Riders.</p>
                         <hr class="my-4">
-                        <p>It uses utility classes for typography and spacing to space content out within the larger
-                            container.</p>
+                        <p class="">Profesores calificados a tu disposicion, no lo pienses mas y vive la aventura.</p>
+                        <!-- Profesores calificados a tu disposicion, no lo pienses mas y vive la aventura. -->
                         <div class="btn-cta text-center mt-5"><a class="btn btn-primary btn-lg" href="#"
                                 role="button">Quiero saber más</a>
                         </div>
