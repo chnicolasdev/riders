@@ -2,7 +2,7 @@
 		SE LLAMA AL HEADER.PHP
 =======================================-->
 <?php get_header(); ?>
-
+<?php /*?>
 <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
     <div id="heroCarousel" class="px-0 container-fluid carousel carousel-fade" data-ride="carousel">
 
@@ -65,20 +65,21 @@
         </g>
     </svg>
 
-</section><!-- End Hero -->
-
+</section>End Hero
+<?php */ ?>
 
 <main id="main">
     <!-- sección misión visión o similares -->
     <section id="" class="">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row text-center">
                 <div class=" col-sm-12 col-lg-6 ">
                     <div class="row align-items-center  ">
                         <div class="col-sm-12 col-md-6 p-4 ">
-                            <h4 class="text-center">Lorem, ipsum dolor.</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi tempora asperiores
-                                aperiam quas velit in sed magnam alias corrupti quidem.</p>
+                            <h4 class="text-center">MISIÓN</h4>
+                            <p>Generar una instancia segura para niños y jóvenes en la práctica y desarrollo de
+                                actividades deportivas náuticas, acercando de esta forma el deporte, diversión y cultura
+                                a las personas de la cuarta región.</p>
                         </div>
                         <div class="col-sm-12 col-md-6 d-sm-none d-md-block  p-0">
                             <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="img-fluid fondo-cuadro  ">
@@ -88,10 +89,9 @@
                             <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="fondo-cuadro img-fluid  ">
                         </div>
                         <div class="col-sm-12 col-md-6 p-4 ">
-                            <h4 class="text-center">Lorem, ipsum.</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque architecto amet
-                                dignissimos earum perspiciatis natus, qui ipsum illum accusamus recusandae, sequi
-                                molestias enim, magni minus dolorum reiciendis similique nisi numquam.</p>
+                            <h4 class="text-center">VISIÓN</h4>
+                            <p>Masificación del surf y otros deportes, posicionando a la región como atractivo
+                                turístico en deportes náuticos.</p>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
     </section>
 
     <!-- sección características o similares -->
-    <section class="caracteristicas bg-light m-0 pb-3">
+    <!-- <section class="caracteristicas bg-light m-0 pb-3">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col-12">
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!----------------- sección precios ------------------------->
     <section class="precios py-5" id="precios">
         <div class="container py-4">
@@ -221,48 +221,19 @@
             </div>
         </div>
     </section>
-    <!-- seccion llamado a la accion -->
-    <section class=" m-0 p-0">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 p-0">
-                    <div class="jumbotron my-0">
-                        <h1 class="display-4">Escuela de surf riders</h1>
-                        <p class="lead">Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela
-                            de surf Riders.</p>
-                        <hr class="my-4">
-                        <p class="">Profesores calificados a tu disposicion, no lo pienses mas y vive la aventura.</p>
-                        <!-- Profesores calificados a tu disposicion, no lo pienses mas y vive la aventura. -->
-                        <div class="btn-cta text-center mt-5"><a class="btn btn-primary btn-lg" href="#"
-                                role="button">Quiero saber más</a>
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-------------- galeria ------------------>
     <section class="p-5 m-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 p-0">
+                <div class="col-md-4 p-2">
                     <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
                 </div>
-                <div class="col-md-4 p-0">
-                    <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="fondo-cuadro img-fluid  ">
-                </div>
-                <div class="col-md-4 p-0">
+                <div class="col-md-4 p-2">
                     <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
                 </div>
-                <div class="col-md-4 p-0">
-                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
-                </div>
-                <div class="col-md-4 p-0">
-                    <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="fondo-cuadro img-fluid  ">
-                </div>
-                <div class="col-md-4 p-0">
+                <div class="col-md-4 p-2">
                     <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
                 </div>
             </div>
