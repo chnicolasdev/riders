@@ -110,8 +110,13 @@
                         <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid image">
                         <div class="overlay">
                             <div class="text">
-                            <h4>Nosotros</h4>    
-                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda quos, similique provident id corrupti omnis impedit maxime officia quaerat, rem, cum dolores reprehenderit quis dolorum ut. Vel optio odio, ut alias esse amet. Quas libero similique dicta illo doloremque, rerum, reprehenderit velit maxime assumenda ipsam repellat sapiente consectetur odio.</p></div>
+                                <h4>Nosotros</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda quos,
+                                    similique provident id corrupti omnis impedit maxime officia quaerat, rem, cum
+                                    dolores reprehenderit quis dolorum ut. Vel optio odio, ut alias esse amet. Quas
+                                    libero similique dicta illo doloremque, rerum, reprehenderit velit maxime assumenda
+                                    ipsam repellat sapiente consectetur odio.</p>
+                            </div>
                         </div>
                     </div>
 
@@ -198,7 +203,7 @@
     </section> -->
     <!----------------- SECCION PRECIOS ------------------------->
     <section class="precios py-4 mt-0 bg-info-precios" id="precios">
-        <div class="container ">
+        <div class="container py-4 ">
             <h2 class=" text-center pb-4 text-uppercase">precios</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
@@ -210,7 +215,7 @@
                             <h1 class="card-title pricing-card-title">$18.000<small class="text-muted">/Clase</small>
                             </h1>
                             <ul class="mt-3 mb-4 list-unstyled">
-                                <li>hola</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
                                 <li>incluye traje y tabla</li>
                                 <li>orientación por profesionales</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
@@ -262,20 +267,30 @@
 
 
     <!-------------- galeria ------------------>
-    <section class="p-5 m-0">
-        <h1 class="text-center">videos</h1>
-        <div class="container">
+    <section class="py-4 m-0">
+        <div class="container py-4">
+        <h2 class="text-center pb-4 text-uppercase">videos</h2>
             <div class="row">
                 <div class="col-md-4 p-2">
-                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
-                    <h3>Lorem, ipsum dolor.</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, sed.</p>
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe width="365" height="365" src="https://www.youtube.com/embed/O8dTFcbs7kM" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="col-md-4 p-2">
-                    <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="fondo-cuadro img-fluid  ">
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe width="365" height="365" src="https://www.youtube.com/embed/5KdYCeRoVTA" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="col-md-4 p-2">
-                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                <div class="embed-responsive embed-responsive-1by1">
+                        <iframe width="365" height="365" src="https://www.youtube.com/embed/5KdYCeRoVTA" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
