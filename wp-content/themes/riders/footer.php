@@ -12,10 +12,10 @@
 
                             <div id="ubicacion-contacto" class="">
                                 <h3 class="h4"> <i class="icofont-street-view"></i> Dirección: </h3>
-                                <p>
+                                <address>
                                     4 Esquinas con Avenida del Mar,
                                     La Serena, IV Región, Chile.
-                                </p>
+                                </address>
                             </div>
                             <hr>
                             <div id="telefono-contacto" class="">
@@ -30,6 +30,12 @@
                             <div id="email-contacto" class="pr-5">
                                 <h3 class="h4"><i class="icofont-email"></i> Email:</h3>
                                 <a href="mailto:" class=""> escueladesurfriders@gmail.com</a>
+                                <!-- <p>escueladesurfriders@gmail.com</p> -->
+                            </div>
+                            <hr>
+                            <div id="horario" class="pr-5">
+                                <h3 class="h4"><i class="icofont-calendar"></i> Horario:</h3>
+                                <p>Lunes a Domingo desde 09:00-20:00 hrs.</p>
                                 <!-- <p>escueladesurfriders@gmail.com</p> -->
                             </div>
                             <hr>

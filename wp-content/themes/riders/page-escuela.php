@@ -67,10 +67,19 @@
 
 </section>End Hero
 <?php */ ?>
-
+<section class="bg-header mb-0">
+    <div class=" p-2 p-md-3 m-md-3 text-center">
+        <div class="col-md-7 mx-auto my-5">
+            <h1 class="display-3 font-weight-normal">Escuela de Surf</h1>
+            <p class="lead font-weight-normal">Ven a vivir una de las mejores experiencias en el mar junto a nosotros,
+                escuela de surf Riders</p>
+            <!-- <a class="btn btn-outline-primary" href="#">Quiero saber más</a> -->
+        </div>
+    </div>
+</section>
 <main id="main">
     <!-- sección misión visión o similares -->
-    <section id="" class="">
+    <section id="" class="nosotros py-0 my-0">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class=" col-sm-12 col-lg-6 ">
@@ -82,7 +91,7 @@
                                 a las personas de la cuarta región.</p>
                         </div>
                         <div class="col-sm-12 col-md-6 d-sm-none d-md-block  p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="img-fluid fondo-cuadro  ">
+                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid fondo-cuadro  ">
                         </div>
 
                         <div class="col-sm-12 col-md-6 d-none d-sm-block p-0">
@@ -96,12 +105,39 @@
                     </div>
                 </div>
                 <div class=" col-md-6 col-sm-12 col-lg-6 d-none d-lg-block p-0 ">
-                    <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid">
+                    <div class="container p-0 m-0">
+                        <!-- <img src="img_avatar.png" alt="Avatar" class="image"> -->
+                        <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid image">
+                        <div class="overlay">
+                            <div class="text">
+                            <h4>Nosotros</h4>    
+                           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda quos, similique provident id corrupti omnis impedit maxime officia quaerat, rem, cum dolores reprehenderit quis dolorum ut. Vel optio odio, ut alias esse amet. Quas libero similique dicta illo doloremque, rerum, reprehenderit velit maxime assumenda ipsam repellat sapiente consectetur odio.</p></div>
+                        </div>
+                    </div>
+
+                    <!-- <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid"> -->
                     <!-- <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75" alt="Imagen de Quiénes Somos"> -->
                 </div>
             </div>
         </div>
     </section>
+    <!-- <section class="quienes-somos py-0">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-4"><img src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                        class="fondo-cuadro img-fluid  "></div>
+                <div class="col-6">
+                    <h3>Quienes somos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, reprehenderit perspiciatis?
+                        Sunt quisquam numquam beatae sint, fuga vel! Minima maiores sapiente totam, itaque, error
+                        assumenda deserunt quam officiis voluptas reiciendis facere aliquam unde dicta dolores sed
+                        accusamus impedit saepe aperiam fugit animi ad quidem, dolor voluptate! Repellendus voluptatum
+                        est voluptates!</p>
+                </div>
+            </div>
+        </div>
+
+    </section> -->
 
     <!-- sección características o similares -->
     <!-- <section class="caracteristicas bg-light m-0 pb-3">
@@ -160,62 +196,64 @@
             </div>
         </div>
     </section> -->
-    <!----------------- sección precios ------------------------->
-    <section class="precios py-5" id="precios">
-        <div class="container py-4">
+    <!----------------- SECCION PRECIOS ------------------------->
+    <section class="precios py-4 mt-0 bg-info-precios" id="precios">
+        <div class="container ">
             <h2 class=" text-center pb-4 text-uppercase">precios</h2>
-            <div class="card-deck mb-3 text-center">
-                <div class="card mb-4 shadow">
-                    <div class="card-header" style="height:80px">
-                        <h4 class="my-auto font-weight-normal text-uppercase">clase particular</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$18.000<small class="text-muted">/ Clase</small>
-                        </h1>
-                        <ul class="list-format mt-3 mb-4">
-                            <li>1 1/2 hrs duracion de la clase</li>
-                            <li>incluye traje y tabla</li>
-                            <li>orientacion por profesionales</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <!-- Consta de 1 1/2 hrs. donde te pasamos traje,  tabla e Instructor. Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela de surf Riders.  -->
-                        </ul>
-                        <button type="button" class="botones btn btn-lg btn-block btn-primary">Más
-                            Informacion</button>
-                    </div>
-                </div>
-                <div class="card mb-4 shadow">
-                    <div class="card-header" style="height:80px">
-                        <h4 class="my-auto font-weight-normal text-uppercase">clase grupal</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$12.000 <small class="text-muted">/Clase</small>
-                        </h1>
-                        <ul class="list-format mt-3 mb-4">
-                            <li>clase grupal 30 personas</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem ipsum dolor sit.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                        </ul>
-                        <button type="button" class="botones btn btn-lg btn-block btn-primary">Más
-                            Informacion</button>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow text-center">
+                        <div class="card-header" style="height:80px">
+                            <h4 class="font-weight-normal text-uppercase">clase particular</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$18.000<small class="text-muted">/Clase</small>
+                            </h1>
+                            <ul class="mt-3 mb-4 list-unstyled">
+                                <li>hola</li>
+                                <li>incluye traje y tabla</li>
+                                <li>orientación por profesionales</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <!-- Consta de 1 1/2 hrs. donde te pasamos traje,  tabla e Instructor. Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela de surf Riders.  -->
+                            </ul>
+                            <a href="#" class="btn btn-primary btn-lg">Más Información</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card mb-4 shadow">
-                    <div class="card-header" style="height:80px">
-                        <h4 class="my-0 font-weight-normal text-uppercase">6 clases + 3 clases prácticas</h4>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow text-center">
+                        <div class="card-header" style="height:80px">
+                            <h4 class="font-weight-normal text-uppercase">clase grupal</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$12.000<small class="text-muted">/Clase</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>clase grupal hasta 30 personas</li>
+                                <li>Lorem, ipsum.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <button class="btn btn-primary btn-lg">Más Información</button>
+                            <!-- <a href="#" class="btn btn-primary btn-lg">Más Información</a> -->
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h1 class="card-title pricing-card-title">$80.000 <small class="text-muted"></small>
-                        </h1>
-                        <ul class="list-format mt-3 mb-4">
-                            <li>clase Lorem, ipsum dolor.personas</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem ipsum dolor sit.</li>
-                            <li>Lorem ipsum dolor sit amet.</li>
-                            <!-- Curso de 6 clases de surf con instructor  más 3 clases en que el alumno ingresa al mar de forma independiente.  -->
-                        </ul>
-                        <button type="button" class="botones btn btn-lg btn-block btn-primary">Más
-                            Informacion</button>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow text-center ">
+                        <div class="card-header" style="height:80px">
+                            <h4 class="font-weight-normal text-uppercase">6 clases + 3 clases prácticas</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$80.000</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>clase grupal hasta 30 personas</li>
+                                <li>Lorem, ipsum.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary btn-lg">Más Información</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,13 +263,16 @@
 
     <!-------------- galeria ------------------>
     <section class="p-5 m-0">
+        <h1 class="text-center">videos</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-4 p-2">
                     <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, sed.</p>
                 </div>
                 <div class="col-md-4 p-2">
-                    <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
+                    <img src="/riders/wp-content/themes/riders/img/bg4.jpg" class="fondo-cuadro img-fluid  ">
                 </div>
                 <div class="col-md-4 p-2">
                     <img src="/riders/wp-content/themes/riders/img/bg3.jpg" class="fondo-cuadro img-fluid  ">
