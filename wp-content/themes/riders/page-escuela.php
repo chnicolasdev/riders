@@ -106,7 +106,7 @@
                 </div>
                 <div class=" col-md-6 col-sm-12 col-lg-6 d-none d-lg-block p-0 ">
                     <div class="container p-0 m-0">
-                        <!-- <img src="img_avatar.png" alt="Avatar" class="image"> -->
+
                         <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid image">
                         <div class="overlay">
                             <div class="text">
@@ -119,31 +119,34 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid"> -->
                     <!-- <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75" alt="Imagen de Quiénes Somos"> -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section class="quienes-somos py-0">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-4"><img src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                        class="fondo-cuadro img-fluid  "></div>
-                <div class="col-6">
-                    <h3>Quienes somos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, reprehenderit perspiciatis?
-                        Sunt quisquam numquam beatae sint, fuga vel! Minima maiores sapiente totam, itaque, error
-                        assumenda deserunt quam officiis voluptas reiciendis facere aliquam unde dicta dolores sed
-                        accusamus impedit saepe aperiam fugit animi ad quidem, dolor voluptate! Repellendus voluptatum
-                        est voluptates!</p>
+    <section>
+        <div class="container-fluid">
+            <h2 class="text-uppercase text-center">historia o nosotros</h2>
+            <div class="row d-flex  justify-content-center">
+                <div class="col-8 align-content-center">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="100%" src="https://www.youtube.com/embed/O8dTFcbs7kM" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
 
-    </section> -->
-
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- sección características o similares -->
     <!-- <section class="caracteristicas bg-light m-0 pb-3">
         <div class="container">
@@ -201,18 +204,192 @@
             </div>
         </div>
     </section> -->
+    <!--============= SECCION NUESTRO EQUIPO =======================-->
+    <section id="team" class="bg-primary">
+        <div class="container">
+            <h2 class="text-uppercase text-center">nuestro equipo</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p>
+                                            <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                                alt="card image" />
+                                        </p>
+                                        <h4 class="card-title">Juan Perez</h4>
+                                        <p class="card-text">
+                                            instructor de surf categoria niños de 7 a 10 años
+                                        </p>
+                                        <a href="#" class="btn btn-dark btn-sm"><i class="icofont-arrow-up"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Juan Perez</h4>
+                                        <p class="card-text">
+                                            Cuenta con mas de 8 años de experiencia en aprendizaje cerficado en... Lorem
+                                            ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eveniet porro
+                                            voluptates! Accusamus amet, quasi veniam laboriosam recusandae minus ad.
+                                        </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p>
+                                            <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                                alt="card image" />
+                                        </p>
+                                        <h4 class="card-title">Roberto Fenandez</h4>
+                                        <p class="card-text">
+                                            instructor de surf categoria adolecentes 12 a 16 años
+                                        </p>
+                                        <a href="#" class="btn btn-dark btn-sm"><i class="icofont-arrow-up"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Roberto Fernandez</h4>
+                                        <p class="card-text">
+                                            Cuenta con mas de 8 años de experiencia en aprendizaje cerficado en... Lorem
+                                            ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eveniet porro
+                                            voluptates! Accusamus amet, quasi veniam laboriosam recusandae minus ad.
+                                        </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="icofont-instagram text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="icofont-facebook text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="icofont-facebook-messenger text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p>
+                                            <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                                alt="card image" />
+                                        </p>
+                                        <h4 class="card-title">Luis Gonzales</h4>
+                                        <p class="card-text">
+                                            instructor de surf categoria niños de 7 a 10 años
+                                        </p>
+                                        <a href="#" class="btn btn-dark btn-sm"><i class="icofont-arrow-up"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Luis Gonzales</h4>
+                                        <p class="card-text">
+                                            Cuenta con mas de 8 años de experiencia en aprendizaje cerficado en... Lorem
+                                            ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eveniet porro
+                                            voluptates! Accusamus amet, quasi veniam laboriosam recusandae minus ad.
+                                        </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= FIN SECCION NUESTRO EQUIPO =======================-->
     <!----------------- SECCION PRECIOS ------------------------->
     <section class="precios py-4 mt-0 bg-info-precios" id="precios">
         <div class="container py-4 ">
-            <h2 class=" text-center pb-4 text-uppercase">precios</h2>
+            <h2 class=" text-center py-4 text-uppercase">precios</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card shadow text-center">
-                        <div class="card-header" style="height:80px">
+                        <div class="card-header " style="height:80px">
                             <h4 class="font-weight-normal text-uppercase">clase particular</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$18.000<small class="text-muted">/Clase</small>
+                            <h1 class="card-title pricing-card-title">$15.000<small class="text-muted">/Clase</small>
                             </h1>
                             <ul class="mt-3 mb-4 list-unstyled">
                                 <li>Lorem ipsum dolor sit amet.</li>
@@ -221,11 +398,11 @@
                                 <li>Lorem ipsum dolor sit amet.</li>
                                 <!-- Consta de 1 1/2 hrs. donde te pasamos traje,  tabla e Instructor. Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela de surf Riders.  -->
                             </ul>
-                            <a href="#" class="btn btn-primary btn-lg">Más Información</a>
+                            <a href="#" class="btn btn-primary btn-lg">Comprar</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4 ">
                     <div class="card shadow text-center">
                         <div class="card-header" style="height:80px">
                             <h4 class="font-weight-normal text-uppercase">clase grupal</h4>
@@ -239,7 +416,7 @@
                                 <li>Lorem ipsum dolor sit.</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
-                            <button class="btn btn-primary btn-lg">Más Información</button>
+                            <button class="btn btn-primary btn-lg">Comprar</button>
                             <!-- <a href="#" class="btn btn-primary btn-lg">Más Información</a> -->
                         </div>
                     </div>
@@ -250,14 +427,14 @@
                             <h4 class="font-weight-normal text-uppercase">6 clases + 3 clases prácticas</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$80.000</h1>
+                            <h1 class="card-title pricing-card-title">$90.000</h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>clase grupal hasta 30 personas</li>
                                 <li>Lorem, ipsum.</li>
                                 <li>Lorem ipsum dolor sit.</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
-                            <a href="#" class="btn btn-primary btn-lg">Más Información</a>
+                            <a href="#" class="btn btn-primary btn-lg">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -269,7 +446,7 @@
     <!-------------- galeria ------------------>
     <section class="py-4 m-0">
         <div class="container py-4">
-        <h2 class="text-center pb-4 text-uppercase">videos</h2>
+            <h2 class="text-center py-4 text-uppercase">videos</h2>
             <div class="row">
                 <div class="col-md-4 p-2">
                     <div class="embed-responsive embed-responsive-1by1">
@@ -286,7 +463,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 p-2">
-                <div class="embed-responsive embed-responsive-1by1">
+                    <div class="embed-responsive embed-responsive-1by1">
                         <iframe width="365" height="365" src="https://www.youtube.com/embed/5KdYCeRoVTA" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>

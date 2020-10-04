@@ -11,7 +11,7 @@
                             <!-- <img src="https://www.surftotoralillo.cl/wp-content/uploads/2016/10/logo-3.png" class="logotipo img-responsive">                     -->
 
                             <div id="ubicacion-contacto" class="">
-                                <h3 class="h4"> <i class="icofont-street-view"></i> Dirección: </h3>
+                                <h5 class=""> <i class="icofont-street-view"></i> Dirección: </h5>
                                 <address>
                                     4 Esquinas con Avenida del Mar,
                                     La Serena, IV Región, Chile.
@@ -19,45 +19,41 @@
                             </div>
                             <hr>
                             <div id="telefono-contacto" class="">
-                                <h3 class="h4"><i class="icofont-phone"></i> Teléfonos:</h3>
+                                <h5 class=""><i class="icofont-phone"></i> Teléfonos:</h5>
                                 <ul>
                                     <li>+56 9 92597372</li>
                                     <li>+56 9 97416149</li>
                                 </ul>
-                                <!-- <p> +56 9 92597372 / +56 9 97416149</p> -->
                             </div>
                             <hr>
                             <div id="email-contacto" class="pr-5">
-                                <h3 class="h4"><i class="icofont-email"></i> Email:</h3>
+                                <h5 class=""><i class="icofont-email"></i> Email:</h5>
                                 <a href="mailto:" class=""> escueladesurfriders@gmail.com</a>
                                 <!-- <p>escueladesurfriders@gmail.com</p> -->
                             </div>
                             <hr>
                             <div id="horario" class="pr-5">
-                                <h3 class="h4"><i class="icofont-calendar"></i> Horario:</h3>
+                                <h5 class=""><i class="icofont-calendar"></i> Horario:</h5>
                                 <p>Lunes a Domingo desde 09:00-20:00 hrs.</p>
                                 <!-- <p>escueladesurfriders@gmail.com</p> -->
                             </div>
                             <hr>
 
                             <div id="redes-sociales" class="pr-5">
-                                <h3 class="h4"></i> Síguenos en:</h3>
-                                <a href="https://www.instagram.com/escueladesurfriders/" class="social-media-icon"><i class="icofont-instagram"></i></a>
-                                <a href="https://www.facebook.com/escueladesurfriders" class="social-media-icon"><i class="icofont-facebook"></i></a>
+                                <h5 class=""></i> Síguenos en:</h5>
+                                <a href="https://www.instagram.com/escueladesurfriders/" class="social-media-icon"><i
+                                        class="icofont-instagram"></i></a>
+                                <a href="https://www.facebook.com/escueladesurfriders" class="social-media-icon"><i
+                                        class="icofont-facebook"></i></a>
                             </div>
                             <hr>
-                            <!-- https://www.instagram.com/escueladesurfriders/ -->
-
-
-
-
                         </div>
-                        <div class="row text-center">
+                        <!-- <div class="row text-center">
                             <div class="col align-self-end">
                                 <img src="<?php bloginfo('template_url') ?>/img/logo-nav.jpg"
-                                    class="img-fluid logotipo w-50">
+                                    class="img-fluid logotipo w-25">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <div class="col-md-5 px-2 text-center py-3">
@@ -71,9 +67,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 px-4 py-3">
+                    <div class="col-md-4 px-4 pt-3 pb-0">
                         <div id="widget-contacto">
-                            <h2 class="title pb-2 text-center">Escríbenos</h2>
+                            <h2 class="title pb-2">Escríbenos</h2>
                             <!-- <div role="form" class="wpcf7" id="wpcf7-f3979-o1" lang="es-ES" dir="ltr"></div> -->
                             <?php
                             $argsFormularioContacto = array(
@@ -99,11 +95,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 bg-primary text-center">
-
-                        <div class="footer-copyright m-0 py-3">
-                            <p> &copy Copyright <?php echo date('Y');?> | <?php bloginfo( 'name' ); ?> | Todos los derechos Reservados</p>
-                            
+                    <div class="col-12 bg-primary text-center d-flex justify-content-center">
+                        <div class="footer-copyright py-2">
+                            <p> &copy Copyright <?php echo date('Y');?> | <?php bloginfo( 'name' ); ?> | Todos los
+                                derechos Reservados</p>
                         </div>
                     </div>
                 </div>
