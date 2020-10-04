@@ -205,179 +205,301 @@
         </div>
     </section> -->
     <!--============= SECCION NUESTRO EQUIPO =======================-->
-    <section id="team" class="bg-primary">
-        <div class="container">
+    <section id="team" class="">
+        <div class="container text-center my-3">
             <h2 class="text-uppercase text-center">nuestro equipo</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p>
-                                            <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                                alt="card image" />
-                                        </p>
-                                        <h4 class="card-title">Juan Perez</h4>
-                                        <p class="card-text">
-                                            instructor de surf categoria niños de 7 a 10 años
-                                        </p>
-                                        <a href="#" class="btn btn-dark btn-sm"><i class="icofont-arrow-up"></i></a>
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card">
+                                                <div class="card-body text-center">
+                                                    <p>
+                                                        <img class="img-fluid"
+                                                            src="/riders/wp-content/themes/riders/img/bg3.jpg"
+                                                            alt="card image" />
+                                                    </p>
+                                                    <h4 class="card-title">Juan Perez</h4>
+                                                    <p class="card-text">
+                                                        instructor de surf categoria riders de 7 a 10 años
+                                                    </p>
+                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                            class="icofont-plus-square"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="backside">
+                                            <div class="card">
+                                                <div class="card-body text-center mt-4">
+                                                    <h4 class="card-title">Juan Perez</h4>
+                                                    <p class="card-text">
+                                                        Cuenta con mas de 8 años de experiencia en aprendizaje cerficado
+                                                        en... Lorem
+                                                        ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                                                        eveniet porro
+                                                        voluptates! Accusamus amet, quasi veniam laboriosam recusandae
+                                                        minus
+                                                        ad.
+                                                    </p>
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-google"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Juan Perez</h4>
-                                        <p class="card-text">
-                                            Cuenta con mas de 8 años de experiencia en aprendizaje cerficado en... Lorem
-                                            ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eveniet porro
-                                            voluptates! Accusamus amet, quasi veniam laboriosam recusandae minus ad.
-                                        </p>
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-skype"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card">
+                                                <div class="card-body text-center">
+                                                    <p>
+                                                        <img class="img-fluid"
+                                                            src="/riders/wp-content/themes/riders/img/bg4.jpg"
+                                                            alt="card image" />
+                                                    </p>
+                                                    <h4 class="card-title">Roberto Fenandez</h4>
+                                                    <p class="card-text">
+                                                        instructor de surf categoria riders de 12 a 16 años
+                                                    </p>
+                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                            class="icofont-plus-square"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="backside">
+                                            <div class="card">
+                                                <div class="card-body text-center mt-4">
+                                                    <h4 class="card-title">Roberto Fernandez</h4>
+                                                    <p class="card-text">
+                                                        Cuenta con mas de 8 años de experiencia en aprendizaje cerficado
+                                                        en... Lorem
+                                                        ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                                                        eveniet porro
+                                                        voluptates! Accusamus amet, quasi veniam laboriosam recusandae
+                                                        minus
+                                                        ad.
+                                                    </p>
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <a class="icofont-instagram text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="icofont-facebook text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="icofont-facebook-messenger text-xs-center"
+                                                                target="_blank" href="#">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-google"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card">
+                                                <div class="card-body text-center">
+                                                    <p>
+                                                        <img class="img-fluid"
+                                                            src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                                            alt="card image" />
+                                                    </p>
+                                                    <h4 class="card-title">Luis Gonzales</h4>
+                                                    <p class="card-text">
+                                                        instructor de surf categoria riders de 7 a 10 años
+                                                    </p>
+                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                            class="icofont-plus-square"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="backside">
+                                            <div class="card">
+                                                <div class="card-body text-center mt-4">
+                                                    <h4 class="card-title">Luis Gonzales</h4>
+                                                    <p class="card-text">
+                                                        Cuenta con mas de 8 años de experiencia en aprendizaje cerficado
+                                                        en... Lorem
+                                                        ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                                                        eveniet porro
+                                                        voluptates! Accusamus amet, quasi veniam laboriosam recusandae
+                                                        minus
+                                                        ad.
+                                                    </p>
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-google"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card">
+                                                <div class="card-body text-center">
+                                                    <p>
+                                                        <img class="img-fluid"
+                                                            src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                                            alt="card image" />
+                                                    </p>
+                                                    <h4 class="card-title">Luis Gonzales</h4>
+                                                    <p class="card-text">
+                                                        instructor de surf categoria riders adulto
+                                                    </p>
+                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                            class="icofont-plus-square"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="backside">
+                                            <div class="card">
+                                                <div class="card-body text-center mt-4">
+                                                    <h4 class="card-title">Luis Gonzales</h4>
+                                                    <p class="card-text">
+                                                        Cuenta con mas de 8 años de experiencia en aprendizaje cerficado
+                                                        en... Lorem
+                                                        ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                                                        eveniet porro
+                                                        voluptates! Accusamus amet, quasi veniam laboriosam recusandae
+                                                        minus
+                                                        ad.
+                                                    </p>
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-facebook"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a class="social-icon text-xs-center" target="_blank"
+                                                                href="#">
+                                                                <i class="fa fa-google"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p>
-                                            <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                                alt="card image" />
-                                        </p>
-                                        <h4 class="card-title">Roberto Fenandez</h4>
-                                        <p class="card-text">
-                                            instructor de surf categoria adolecentes 12 a 16 años
-                                        </p>
-                                        <a href="#" class="btn btn-dark btn-sm"><i class="icofont-arrow-up"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Roberto Fernandez</h4>
-                                        <p class="card-text">
-                                            Cuenta con mas de 8 años de experiencia en aprendizaje cerficado en... Lorem
-                                            ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eveniet porro
-                                            voluptates! Accusamus amet, quasi veniam laboriosam recusandae minus ad.
-                                        </p>
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item">
-                                                <a class="icofont-instagram text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="icofont-facebook text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="icofont-facebook-messenger text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-skype"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                        <div class="mainflip">
-                            <div class="frontside">
-                                <div class="card">
-                                    <div class="card-body text-center">
-                                        <p>
-                                            <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                                alt="card image" />
-                                        </p>
-                                        <h4 class="card-title">Luis Gonzales</h4>
-                                        <p class="card-text">
-                                            instructor de surf categoria niños de 7 a 10 años
-                                        </p>
-                                        <a href="#" class="btn btn-dark btn-sm"><i class="icofont-arrow-up"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="backside">
-                                <div class="card">
-                                    <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Luis Gonzales</h4>
-                                        <p class="card-text">
-                                            Cuenta con mas de 8 años de experiencia en aprendizaje cerficado en... Lorem
-                                            ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eveniet porro
-                                            voluptates! Accusamus amet, quasi veniam laboriosam recusandae minus ad.
-                                        </p>
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-skype"></i>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                    <i class="fa fa-google"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
                 </div>
             </div>
         </div>
     </section>
+
     <!--============= FIN SECCION NUESTRO EQUIPO =======================-->
+
+
+
     <!----------------- SECCION PRECIOS ------------------------->
     <section class="precios py-4 mt-0 bg-info-precios" id="precios">
         <div class="container py-4 ">
@@ -513,7 +635,38 @@
 
 
 </main><!-- End #main -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<script>
+$('#recipeCarousel').carousel({
+    interval: 10000
+})
 
+$('.carousel .carousel-item').each(function() {
+    var minPerSlide = 3;
+    var next = $(this).next();
+    if (!next.length) {
+        next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+
+    for (var i = 0; i < minPerSlide; i++) {
+        next = next.next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+
+        next.children(':first-child').clone().appendTo($(this));
+    }
+});
+</script>
 <!--=====================================
 		SE LLAMA AL FOOTER.PHP
 =======================================-->
