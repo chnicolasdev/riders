@@ -78,55 +78,10 @@
     </div>
 </section>
 <main id="main">
-    <!-- sección misión visión o similares -->
-    <section id="" class="nosotros py-0 my-0">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class=" col-sm-12 col-lg-6 ">
-                    <div class="row align-items-center  ">
-                        <div class="col-sm-12 col-md-6 p-4 ">
-                            <h4 class="text-center">MISIÓN</h4>
-                            <p>Generar una instancia segura para niños y jóvenes en la práctica y desarrollo de
-                                actividades deportivas náuticas, acercando de esta forma el deporte, diversión y cultura
-                                a las personas de la cuarta región.</p>
-                        </div>
-                        <div class="col-sm-12 col-md-6 d-sm-none d-md-block  p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid fondo-cuadro  ">
-                        </div>
 
-                        <div class="col-sm-12 col-md-6 d-none d-sm-block p-0">
-                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="fondo-cuadro img-fluid  ">
-                        </div>
-                        <div class="col-sm-12 col-md-6 p-4 ">
-                            <h4 class="text-center">VISIÓN</h4>
-                            <p>Masificación del surf y otros deportes, posicionando a la región como atractivo
-                                turístico en deportes náuticos.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-md-6 col-sm-12 col-lg-6 d-none d-lg-block p-0 ">
-                    <div class="container p-0 m-0">
-
-                        <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid image">
-                        <div class="overlay">
-                            <div class="text">
-                                <h4>Nosotros</h4>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda quos,
-                                    similique provident id corrupti omnis impedit maxime officia quaerat, rem, cum
-                                    dolores reprehenderit quis dolorum ut. Vel optio odio, ut alias esse amet. Quas
-                                    libero similique dicta illo doloremque, rerum, reprehenderit velit maxime assumenda
-                                    ipsam repellat sapiente consectetur odio.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <img src="<?php print_r(get_the_post_thumbnail_url()); ?>" class="img-fluid w-75" alt="Imagen de Quiénes Somos"> -->
-                </div>
-            </div>
-        </div>
-    </section>
     <section>
         <div class="container-fluid">
-            <h2 class="text-uppercase text-center">historia o nosotros</h2>
+            <h2 class="text-uppercase text-center pb-4">Nuestra historia</h2>
             <div class="row d-flex  justify-content-center">
                 <div class="col-8 align-content-center">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -138,25 +93,17 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
 
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- sección características o similares -->
-    <!-- <section class="caracteristicas bg-light m-0 pb-3">
+    <section class="caracteristicas bg-light pb-5">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col-12">
-                    <h2 class="text-uppercase">servicios o por el estilo</h2>
+                    <h2 class="text-uppercase">nuestros servicios</h2>
                 </div>
             </div>
             <div class="row text-center">
-                <div class=" col-md-4 mb-4 ">
+                <div class=" col-md-4 my-auto pb-1">
                     <div class="box p-4 rounded ">
                         <i class="icofont-wind-waves"></i>
                         <h4 class="">Lorem, ipsum dolor.</h4>
@@ -164,14 +111,14 @@
                             amet consectetur adipisicing.</p>
                     </div>
                 </div>
-                <div class=" col-md-4 mb-4">
+                <div class=" col-md-4  my-auto  pb-1">
                     <div class="box p-4 rounded">
                         <i class="icofont-wave"></i>
                         <h4>Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
                     </div>
                 </div>
-                <div class=" col-md-4 mb-4 ">
+                <div class=" col-md-4  my-auto  pb-1 ">
                     <div class="box p-4 rounded">
                         <i class="icofont-swimmer"></i>
                         <h4>Lorem, ipsum dolor.</h4>
@@ -179,14 +126,14 @@
                             amet.</p>
                     </div>
                 </div>
-                <div class=" col-md-4 mb-4 ">
+                <div class=" col-md-4  my-auto  pb-1 ">
                     <div class="box p-4 rounded">
                         <i class="icofont-wind-waves"></i>
                         <h4>Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
                     </div>
                 </div>
-                <div class=" col-md-4 mb-4">
+                <div class=" col-md-4  my-auto  pb-1">
                     <div class="box p-4 rounded">
                         <i class="icofont-swimmer"></i>
                         <h4>Lorem, ipsum dolor.</h4>
@@ -194,7 +141,7 @@
                             amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
                     </div>
                 </div>
-                <div class=" col-md-4 mb-4">
+                <div class=" col-md-4  my-auto  pb-1">
                     <div class="box p-4 rounded">
                         <i class="icofont-wave"></i>
                         <h4>Lorem, ipsum dolor.</h4>
@@ -203,7 +150,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!--============= SECCION NUESTRO EQUIPO =======================-->
     <section id="team" class="">
         <div class="container text-center my-3">
@@ -227,7 +174,7 @@
                                                     <p class="card-text">
                                                         instructor de surf categoria riders de 7 a 10 años
                                                     </p>
-                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                    <a class="btn btn-primary btn-sm"><i
                                                             class="icofont-plus-square"></i></a>
                                                 </div>
                                             </div>
@@ -294,8 +241,9 @@
                                                     <p class="card-text">
                                                         instructor de surf categoria riders de 12 a 16 años
                                                     </p>
-                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                    <a class="btn btn-primary btn-sm"><i
                                                             class="icofont-plus-square"></i></a>
+                                                           
                                                 </div>
                                             </div>
                                         </div>
@@ -361,7 +309,7 @@
                                                     <p class="card-text">
                                                         instructor de surf categoria riders de 7 a 10 años
                                                     </p>
-                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                    <a class="btn btn-primary btn-sm"><i
                                                             class="icofont-plus-square"></i></a>
                                                 </div>
                                             </div>
@@ -428,7 +376,7 @@
                                                     <p class="card-text">
                                                         instructor de surf categoria riders adulto
                                                     </p>
-                                                    <a href="#" class="btn btn-dark btn-sm"><i
+                                                    <a class="btn btn-primary btn-sm"><i
                                                             class="icofont-plus-square"></i></a>
                                                 </div>
                                             </div>

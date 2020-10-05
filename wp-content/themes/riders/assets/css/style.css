@@ -1570,13 +1570,7 @@ h4{
  }
  
 }
-.btn-cta .btn-primary{
-  background-color: #032F5F ;
-  
-}
-.btn-cta .btn-primary:hover{
-  background-color:#037b91 ;
-}
+
 
 /* =================SECCION PRECIOS=================  */
 
@@ -1602,7 +1596,7 @@ h4{
 
 /* ================= FIN SECCION PRECIOS=================  */
 
-/* SECCION HEADER */
+/*--------------- SECCION HEADER--------------- */
 
 .bg-header{
   background-image: linear-gradient(to bottom, rgba(151, 151, 151, 0.746) 40%, #DAEBF3 100%), url(/riders/wp-content/themes/riders/img/bg1.jpg);
@@ -1666,7 +1660,7 @@ footer i{
   line-height: 60px;
 }
 /* =================FIN FOOTER=========== */
-
+/* 
 .nosotros .container {
   position: relative;
   width: 100%;
@@ -1706,7 +1700,7 @@ footer i{
 }
 .text h4{
   font-size: 2rem;
-}
+} */
 
 
 
@@ -1715,6 +1709,9 @@ footer i{
 #team .card {
   border: none;
   background: #ffffff;
+}
+#team a i{
+  color: white;
 }
 
 .image-flip:hover .backside,
