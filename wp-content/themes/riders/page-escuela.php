@@ -5,13 +5,7 @@
 
 
 <main id="main">
-<<<<<<< HEAD
 
-    <section>
-        <div class="container-fluid">
-            <h2 class="text-uppercase text-center pb-4">Nuestra historia</h2>
-=======
-    
     <!-- <section class="bg-header mb-0">
         <div class=" p-2 p-md-3 m-md-3 text-center">
             <div class="col-md-7 mx-auto my-5">
@@ -28,7 +22,6 @@
     <section class="bg-info-escuela">
         <div class="container-fluid">
             <h1 class="text-uppercase text-center my-3">Escuela de Surf Riders</h1>
->>>>>>> d00b9ba0e27e01e9b6eb13610ae348030e111919
             <div class="row d-flex  justify-content-center">
                 <div class="col-8 align-content-center">
                     <div class="embed-responsive embed-responsive-16by9">
@@ -40,14 +33,11 @@
             </div>
         </div>
     </section>
-<<<<<<< HEAD
 
-=======
     <!-- FIN INICIO - VIDEO DESCRIPTIVO -->
 
 
     
->>>>>>> d00b9ba0e27e01e9b6eb13610ae348030e111919
     <!-- sección características o similares -->
     <section class="caracteristicas bg-light pb-5">
         <div class="container">
@@ -104,13 +94,10 @@
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
     </section>
-=======
     </section> -->
 
 
->>>>>>> d00b9ba0e27e01e9b6eb13610ae348030e111919
     <!--============= SECCION NUESTRO EQUIPO =======================-->
     <section id="team" class="">
         <div class="container text-center my-3">
