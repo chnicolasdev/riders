@@ -11,8 +11,9 @@
 body {
 
   /* font-family: 'Carter One', cursive; */
-
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Righteous', cursive; */
+  font-family: 'Roboto', sans-serif;
   color: #444444;
 }
 
@@ -26,8 +27,18 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bangers', cursive;
+    /* font-family: 'Bangers', cursive; */
     letter-spacing: 1.5px;
+}
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); */
+
+h1,h2,h3,h4,h5,p 
+{
+  /* font-family: 'Righteous', cursive; */
+  font-family: 'Roboto', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1533,6 +1544,21 @@ section {
     margin-top: 30px;
   }
 }
+
+/* ================================
+VIDEO INICIO ESCUELA SURF
+================================ */
+.bg-info-escuela{
+  background-image: linear-gradient(to bottom, rgba(221, 220, 248, 0.746) 50%, #DAEBF3 100%), url(/riders/wp-content/themes/riders/img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center ;
+}
+/* ================================
+FIN VIDEO INICIO ESCUELA SURF
+================================ */
+
 
   /*--------------------------------------------------------------
 # seccion escuela de surf

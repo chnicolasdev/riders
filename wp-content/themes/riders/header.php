@@ -16,8 +16,10 @@
 		<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 		<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
-		<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">  -->
+
+		<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
@@ -38,11 +40,9 @@
 
 				<nav class="nav-menu d-none d-lg-block bg-dark">
 					<ul>
-
 						<li class="nav-item <?php if($url_actual == '/riders/inicio/' || $url_actual == '/riders/') { echo "active"; } ?>">
 							<a class="nav-link" href="inicio">Inicio <span class="sr-only">Inicio</span></a>
 						</li>
-
 						<li class="nav-item <?php if($url_actual == '/riders/escuela/') { echo "active"; } ?>">
 							<a class="nav-link" href="escuela">Escuela Surf</a>
 						</li>
@@ -54,40 +54,10 @@
 						</li>
 						<li class="nav-item <?php if($url_actual == '/riders/contacto/') { echo "active"; } ?>">
 							<a class="nav-link" href="contacto">Contacto</a>
-						</li>
-
-						
+						</li>						
 					</ul>
 				</nav>
 			</div>
 		</header>
 
 
-
-		<!-- <nav class="navbar navbar-light navbar-expand-md justify-content-center bg-riders">
-
-			<a class="navbar-brand" href="#">
-				<img src="<?php bloginfo('template_url') ?>/img/logo-nav.jpg" width="70" height="70" alt="">
-			</a>
-
-			<button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
-				<ul class="navbar-nav mx-auto text-center">
-					<li class="nav-item <?php if($url_actual == '/riders/inicio/' || $url_actual == '/riders/') { echo "active"; } ?>">
-						<a class="nav-link" href="inicio">Inicio <span class="sr-only">Inicio</span></a>
-					</li>
-
-					<li class="nav-item <?php if($url_actual == '/riders/clases/') { echo "active"; } ?>">
-						<a class="nav-link" href="clases">Clases</a>
-					</li>
-					<li class="nav-item <?php if($url_actual == '/riders/videos/') { echo "active"; } ?>">
-						<a class="nav-link" href="videos">Videos</a>
-					</li>
-					<li class="nav-item <?php if($url_actual == '/riders/contacto/') { echo "active"; } ?>">
-						<a class="nav-link" href="contacto">Contacto</a>
-					</li>
-				</ul>
-			</div>
-		</nav> -->

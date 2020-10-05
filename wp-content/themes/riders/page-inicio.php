@@ -71,12 +71,73 @@
 */ ?>
 
 
-<main id="main">
+<main id="main" class="bg-dark">
 
+	<section>		
+		<div class="container text-white">
+		
+			<!-- <header class="text-center">
+				<h1>Mesonry Image gallery</h1>
+			</header> -->
+			
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<div class="row h-50">
+						<div class="col-md-12 col-sm-12">
+							<div class="h-25">
+								Escuela de Surf
+								<img src="<?php bloginfo('template_url') ?>/img/inicio-escuela.jpg" class="img-fluid rounded">
+							</div>
+						</div>
+					</div>
+				
+					<div class="row h-50">
+						<div class="col-md-6 col-sm-6">
+							<div class="h-100">
+								Surf-Camp
+								<img src="<?php bloginfo('template_url') ?>/img/inicio-escuela.jpg" class="img-fluid rounded">
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							<div class="h-100">
+								Reporte Olas
+								<img src="<?php bloginfo('template_url') ?>/img/inicio-escuela.jpg" class="img-fluid rounded">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<div class="col-md-12 col-sm-6 h-25">
+						<div class="h-100">
+							Agenda tu clase<img src="<?php bloginfo('template_url') ?>/img/inicio-escuela.jpg" class="img-fluid rounded">
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-6 h-25">
+						<div class="h-100">
+							Ubicación / Contacto<img src="<?php bloginfo('template_url') ?>/img/inicio-contacto.jpg" class="img-fluid rounded">
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-6 h-50">
+						<div class="h-100">
+							Galería
+							<img src="<?php bloginfo('template_url') ?>/img/inicio-galeria.jpg" class="img-fluid rounded">
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<br/>
+		</div>
+	</section>
+
+
+	<?php /*
 	<section id="" class="">
 		<div class="container">
-
-
 			<div class="row">
 				<div class="col-12 col-md-6">
 					<div class="col-12 bg-info">
@@ -120,9 +181,7 @@
 				</div>
 			</div>
 
-
 			<?php
-			/*
 			$argsQuienesSomosInicio = array(
 					'cat' => 3,
 					'type' => 'post',
@@ -155,16 +214,17 @@
 				<?php endwhile; ?>
 			<?php endif;
 			wp_reset_postdata();
-			*/
 			?>
-			
-			
 		</div>
 	</section>
+	*/ ?>
+
+	
+
 	 
 </main><!-- End #main -->
 
 <!--=====================================
 		SE LLAMA AL FOOTER.PHP
 =======================================-->
-<?php get_footer(); ?>
+<?php // get_footer(); ?>
