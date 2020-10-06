@@ -1566,23 +1566,25 @@ FIN VIDEO INICIO ESCUELA SURF
 h1,h2{
   color: #032F5F;
 }
-i{
-  color: #046BC4;
-}
 h4{
   color: #033D74;
 }
+.box i{
+  color: #046BC4;
+}
+
 .box p{
   color:#032F5F
 }
 .box{
   background-color: rgb(223, 238, 238);
-
 }
 .caracteristicas i{
   font-size: 3.5rem;
-
 }
+/* .caracteristicas .box p{
+  line-height: 1.8em;
+} */
 
 @media screen and (max-width: 991px) and (min-width:768px) {
  .box i{
@@ -1687,6 +1689,7 @@ footer i{
 }
 /* =================FIN FOOTER=========== */
 
+/* ---------SECCION MISION VISION NOSOTROS--------- */
 .nosotros .container {
   position: relative;
   width: 100%;

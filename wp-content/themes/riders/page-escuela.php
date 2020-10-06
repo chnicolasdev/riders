@@ -47,48 +47,48 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class=" col-md-4 my-auto pb-1">
+                <div class=" col-md-4 my-auto pb-sm-4">
                     <div class="box p-4 rounded ">
                         <i class="icofont-wind-waves"></i>
-                        <h4 class="">Lorem, ipsum dolor.</h4>
+                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit
                             amet consectetur adipisicing.</p>
                     </div>
                 </div>
-                <div class=" col-md-4  my-auto  pb-1">
+                <div class=" col-md-4  my-auto  pb-sm-4">
                     <div class="box p-4 rounded">
                         <i class="icofont-wave"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
+                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
                     </div>
                 </div>
-                <div class=" col-md-4  my-auto  pb-1 ">
+                <div class=" col-md-4  my-auto  pb-sm-4 ">
                     <div class="box p-4 rounded">
                         <i class="icofont-swimmer"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
+                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit
                             amet.</p>
                     </div>
                 </div>
-                <div class=" col-md-4  my-auto  pb-1 ">
+                <div class=" col-md-4  my-auto  pb-sm-4">
                     <div class="box p-4 rounded">
                         <i class="icofont-wind-waves"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
+                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
                     </div>
                 </div>
-                <div class=" col-md-4  my-auto  pb-1">
+                <div class=" col-md-4  my-auto  pb-sm-4">
                     <div class="box p-4 rounded">
                         <i class="icofont-swimmer"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
+                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum, dolor sit
                             amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
                     </div>
                 </div>
-                <div class=" col-md-4  my-auto  pb-1">
+                <div class=" col-md-4  my-auto  pb-sm-4">
                     <div class="box p-4 rounded">
                         <i class="icofont-wave"></i>
-                        <h4>Lorem, ipsum dolor.</h4>
+                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
                                             alt="card image" />
                                         <div class="info">
-                                            <h4 class="pt-2 ">Tomas gonzales</h4>
+                                            <h4 class="pt-3 ">Tomas gonzales</h4>
                                             <p class="position">
                                                 Instructor de surf categoria riders de 7 a 10 años
                                             </p>
@@ -134,7 +134,7 @@
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                             alt="card image" />
                                         <div class="info">
-                                            <h4 class="pt-2 ">Pedro Fernandez</h4>
+                                            <h4 class="pt-3 ">Pedro Fernandez</h4>
                                             <p class="position">
                                                 Instructor de surf categoria riders de 7 a 10 años
                                             </p>
@@ -157,7 +157,7 @@
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
                                             alt="card image" />
                                         <div class="info">
-                                            <h4 class="pt-2 ">Leonardo Perez</h4>
+                                            <h4 class="pt-3">Leonardo Perez</h4>
                                             <p class="position">
                                                 Instructor de surf categoria riders de 7 a 10 años
                                             </p>
@@ -180,7 +180,7 @@
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                             alt="card image" />
                                         <div class="info">
-                                            <h4 class="pt-2 ">Luis Rojas</h4>
+                                            <h4 class="pt-3 ">Luis Rojas</h4>
                                             <p class="position">
                                                 Instructor de surf categoria riders de 7 a 10 años
                                             </p>
