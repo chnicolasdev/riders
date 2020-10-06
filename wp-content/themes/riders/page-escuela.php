@@ -109,7 +109,7 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                        <img class="img-fluid img-thumbnail shadow-sm" src="/riders/wp-content/themes/riders/img/bg1.jpg"
                                             alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3 ">Tomas gonzales</h4>
@@ -131,7 +131,7 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
+                                        <img class="img-fluid img-thumbnail shadow-sm" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                             alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3 ">Pedro Fernandez</h4>
@@ -154,7 +154,7 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
+                                        <img class="img-fluid img-thumbnail  shadow-sm" src="/riders/wp-content/themes/riders/img/bg4.jpg"
                                             alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3">Leonardo Perez</h4>
@@ -177,7 +177,7 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
+                                        <img class="img-fluid img-thumbnail shadow-sm" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                             alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3 ">Luis Rojas</h4>
