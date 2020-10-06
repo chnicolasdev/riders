@@ -106,7 +106,7 @@
                 <div class="col-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="col-12 i">
+                            <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
@@ -122,14 +122,13 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
-                                            Cupiditate, a nihil!</p>
-                                    
+                                            Cupiditate, a nihil!</p>   
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="col-12 i">
+                            <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
@@ -152,7 +151,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="col-12 i">
+                            <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
@@ -175,13 +174,13 @@
                             </div>
                         </div>
                         <div class="item">
-                            <div class="col-12 i">
+                            <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
                                         <img class="img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                             alt="card image" />
                                         <div class="info">
-                                            <h4 class="pt-2 ">Luis Gonzales</h4>
+                                            <h4 class="pt-2 ">Luis Rojas</h4>
                                             <p class="position">
                                                 Instructor de surf categoria riders de 7 a 10 años
                                             </p>
