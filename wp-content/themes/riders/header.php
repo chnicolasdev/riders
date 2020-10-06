@@ -20,6 +20,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">  -->
 
 		<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+		
+	
 	</head>
 
 	<body>
