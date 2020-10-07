@@ -96,6 +96,110 @@
         </div>
     </section>
 
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 p-2">
+                    <div class="ih-item square colored effect10 left_to_right"><a>
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                    alt="card image" /></div>
+                            <div class="info">
+                                <!-- <i class="icofont-wind-waves"></i> -->
+                                <h3>Heading here</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                    aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
+                                    Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
+                                    commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
+                                    soluta facere quos! Minus atque illum possimus velit placeat?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="ih-item square colored effect10 top_to_bottom"><a>
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                    alt="card image" /></div>
+                            <div class="info">
+                                <!-- <i class="icofont-wind-waves"></i> -->
+                                <h3>Heading here</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                    aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
+                                    Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
+                                    commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
+                                    soluta facere quos! Minus atque illum possimus velit placeat?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="ih-item square colored effect10 right_to_left"><a>
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                    alt="card image" /></div>
+                            <div class="info">
+                                <!-- <i class="icofont-wind-waves"></i> -->
+                                <h3>Heading here</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                    aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
+                                    Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
+                                    commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
+                                    soluta facere quos! Minus atque illum possimus velit placeat?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="ih-item square colored effect10 left_to_right"><a>
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                    alt="card image" /></div>
+                            <div class="info">
+                                <!-- <i class="icofont-wind-waves"></i> -->
+                                <h3>Heading here</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                    aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
+                                    Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
+                                    commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
+                                    soluta facere quos! Minus atque illum possimus velit placeat?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4  p-2">
+                    <div class="ih-item square colored effect10 bottom_to_top"><a>
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                    alt="card image" /></div>
+                            <div class="info">
+                                <!-- <i class="icofont-wind-waves"></i> -->
+                                <h3>Heading here</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                    aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
+                                    Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
+                                    commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
+                                    soluta facere quos! Minus atque illum possimus velit placeat?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="ih-item square colored effect10 right_to_left"><a>
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                                    alt="card image" /></div>
+                            <div class="info">
+                                <!-- <i class="icofont-wind-waves"></i> -->
+                                <h3>Heading here</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                    aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
+                                    Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
+                                    commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
+                                    soluta facere quos! Minus atque illum possimus velit placeat?</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--============= SECCION NUESTRO EQUIPO =======================-->
     <section class="ourTeam">
         <div class="container">
@@ -109,8 +213,8 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid img-thumbnail shadow-sm" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                            alt="card image" />
+                                        <img class="img-fluid img-thumbnail shadow-sm"
+                                            src="/riders/wp-content/themes/riders/img/bg1.jpg" alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3 ">Tomas gonzales</h4>
                                             <p class="position">
@@ -122,7 +226,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
-                                            Cupiditate, a nihil!</p>   
+                                            Cupiditate, a nihil!</p>
                                     </div>
                                 </div>
                             </div>
@@ -131,8 +235,8 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid img-thumbnail shadow-sm" src="/riders/wp-content/themes/riders/img/bg3.jpg"
-                                            alt="card image" />
+                                        <img class="img-fluid img-thumbnail shadow-sm"
+                                            src="/riders/wp-content/themes/riders/img/bg3.jpg" alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3 ">Pedro Fernandez</h4>
                                             <p class="position">
@@ -145,7 +249,7 @@
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
-                                    
+
                                     </div>
                                 </div>
                             </div>
@@ -154,8 +258,8 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid img-thumbnail  shadow-sm" src="/riders/wp-content/themes/riders/img/bg4.jpg"
-                                            alt="card image" />
+                                        <img class="img-fluid img-thumbnail  shadow-sm"
+                                            src="/riders/wp-content/themes/riders/img/bg4.jpg" alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3">Leonardo Perez</h4>
                                             <p class="position">
@@ -168,7 +272,7 @@
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
-                                    
+
                                     </div>
                                 </div>
                             </div>
@@ -177,8 +281,8 @@
                             <div class="col-12 i p-4">
                                 <div class="c text-center">
                                     <div class="wrap ">
-                                        <img class="img-fluid img-thumbnail shadow-sm" src="/riders/wp-content/themes/riders/img/bg3.jpg"
-                                            alt="card image" />
+                                        <img class="img-fluid img-thumbnail shadow-sm"
+                                            src="/riders/wp-content/themes/riders/img/bg3.jpg" alt="card image" />
                                         <div class="info">
                                             <h4 class="pt-3 ">Luis Rojas</h4>
                                             <p class="position">
@@ -191,7 +295,7 @@
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
-                                    
+
                                     </div>
                                 </div>
                             </div>
