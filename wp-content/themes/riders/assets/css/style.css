@@ -1881,18 +1881,17 @@ footer i {
   -o-transition: all .3s ease
 }
 
-/* .ourTeam .i .c .wrap .info .name {
-	  margin: 0;
-	  font-size: 24px;
-	  font-size: 2.4rem;
-	  font-weight: 700;
-	  margin: 0 0 8px 0
-  } */
+.ourTeam .i .c .wrap .info .name {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0 0 8px 0
+}
 
 .ourTeam .i .c .wrap .info .position {
-  margin: 0;
-  font-size: 1em;
-  color: #555659
+  margin: 10px 20px 15px 20px;
+  font-size: 1.05em;
+  color: #03305b9a;
 }
 
 .ourTeam .i .c .more {
@@ -1907,8 +1906,8 @@ footer i {
 }
 
 .ourTeam .i .c .more p {
-  margin: 0 18px 30px 18px;
-  line-height: 22px
+  margin: 0 18px 15px 18px;
+  line-height: 1.7em;
 }
 
 .ourTeam .i .c:hover img {
@@ -1926,47 +1925,97 @@ footer i {
   bottom: 0
 }
 
+@media screen and (max-width: 504px) and (min-width:430px) {
+
+
+  
+  .ourTeam .i .c .wrap .info .name {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 0 0 8px 0
+  }
+
+  .ourTeam .i .c .wrap .info .position {
+    /* margin: 0; */
+    margin: 10px 20px 15px 20px;
+    font-size: 1em;
+    color: #03305b9a;
+  }
+
+  .ourTeam .i .c .more p {
+    /* text-align: justify; */
+    margin: 0 30px 50px 30px;
+    line-height: 1.7em;
+  }
+  .ourTeam .i .c:hover .info {
+    top: 0.4rem;
+  }
+  
+  .ourTeam .i .c:hover .more {
+    bottom: 0.9rem;
+  }
+
+}
+@media screen and (max-width: 575px) and (min-width:505px) {
+
+  .ourTeam .i .c .wrap .info .name {
+    margin: 0;
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 0 8px 0
+  }
+
+  .ourTeam .i .c .wrap .info .position {
+    margin: 0;
+    font-size: 1em;
+    color: #03305b9a;
+  }
+
+  .ourTeam .i .c .more p {
+    margin: 0 40px 140px 40px;
+    line-height: 1.7em;
+  }
+}
+@media screen and (max-width: 767px) and (min-width:575px) {
+  .ourTeam .i .c .wrap .info .name {
+    margin: 0;
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 0 8px 0
+  }
+
+  .ourTeam .i .c .wrap .info .position {
+    margin: 0;
+    font-size: 1em;
+    color: #03305b9a;
+  }
+
+  .ourTeam .i .c .more p {
+    margin: 0 40px 160px 40px;
+    line-height: 1.7em;
+  }
+}
+
+
+
+@media screen and (max-width: 990px) and (min-width:768px) {
+  
+  .ourTeam .i .c .wrap .info .position {
+    margin: 0;
+    font-size: 1em;
+    color: #03305b9a;
+  }
+
+  .ourTeam .i .c .more p {
+    margin: 0 18px -25px 18px;
+    line-height: 25px
+  }
+}
+
 @media screen and (max-width: 1199px) and (min-width:991px) {
-  .ourTeam .i .c {
-    background: #fff;
-
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 110px
-  }
-
-  .ourTeam .i .c .wrap {
-    position: relative
-  }
-
-  .ourTeam .i .c .wrap img {
-    width: 70%;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    /* filter: gray; IE6-9
-      -webkit-filter: grayscale(1);
-      filter: grayscale(1);  */
-  }
-
-  .ourTeam .i .c .wrap .info {
-    /* padding: 10px 0; */
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease
-  }
-
   .ourTeam .i .c .wrap .info .name {
     /* margin: 0; */
     font-size: 2.4rem;
@@ -1977,170 +2026,61 @@ footer i {
   .ourTeam .i .c .wrap .info .position {
     margin: 0 0 80px 0;
     font-size: 1em;
-    color: #555659
-  }
-
-  .ourTeam .i .c .more {
-    font-size: 0.9em;
-    position: absolute;
-    bottom: -100%;
-    width: 100%;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease
+    color: #03305b9a;
   }
 
   .ourTeam .i .c .more p {
-    margin: 0px 18px -50px 18px;
-    line-height: 22px
+    margin: 0px 15px -50px 15px !important;
+    line-height: 22px;
   }
 
-  .ourTeam .i .c:hover img {
-    -moz-opacity: 0;
-    -khtml-opacity: 0;
-    -webkit-opacity: 0;
-    opacity: 0
+}
+
+
+/* --------------------------CARRUSEL-------------------------------- */
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
   }
 
-  .ourTeam .i .c:hover .info {
-    top: 0
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
   }
 
-  .ourTeam .i .c:hover .more {
-    bottom: 0
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
   }
+}
 
-  @media screen and (max-width: 992px) and (min-width:424px) {
-    .ourTeam .i .c {
-      background: #fff;
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
 
-      -moz-background-clip: padding;
-      -webkit-background-clip: padding-box;
-      background-clip: padding-box;
-      position: relative;
-      overflow: hidden;
-      padding-bottom: 110px
-    }
-
-    .ourTeam .i .c .wrap {
-      position: relative
-    }
-
-    .ourTeam .i .c .wrap img {
-      width: 70%;
-      border-radius: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      -webkit-transition: all .3s ease;
-      -moz-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-      -o-transition: all .3s ease;
-      /* filter: gray; IE6-9
-      -webkit-filter: grayscale(1);
-      filter: grayscale(1);  */
-    }
-
-    .ourTeam .i .c .wrap .info {
-      /* padding: 10px 0; */
-      position: absolute;
-      top: 100%;
-      width: 100%;
-      -webkit-transition: all .3s ease;
-      -moz-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-      -o-transition: all .3s ease
-    }
-
-    /* .ourTeam .i .c .wrap .info .name {
-      margin: 0;
-      font-size: 24px;
-      font-size: 2.4rem;
-      font-weight: 700;
-      margin: 0 0 8px 0
-    } */
-
-    .ourTeam .i .c .wrap .info .position {
-      margin: 0;
-      font-size: 1em;
-      color: #555659
-    }
-
-    .ourTeam .i .c .more {
-      font-size: 0.9em;
-      position: absolute;
-      bottom: -100%;
-      width: 100%;
-      -webkit-transition: all .3s ease;
-      -moz-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-      -o-transition: all .3s ease
-    }
-
-    .ourTeam .i .c .more p {
-      margin: 0 18px 190px 18px !important;
-      line-height: 25px
-    }
-
-    .ourTeam .i .c:hover img {
-      -moz-opacity: 0;
-      -khtml-opacity: 0;
-      -webkit-opacity: 0;
-      opacity: 0
-    }
-
-    .ourTeam .i .c:hover .info {
-      top: 0
-    }
-
-    .ourTeam .i .c:hover .more {
-      bottom: 0
-    }
-
-    /* --------------------------CARRUSEL-------------------------------- */
-    @media (max-width: 768px) {
-      .carousel-inner .carousel-item>div {
-        display: none;
-      }
-
-      .carousel-inner .carousel-item>div:first-child {
-        display: block;
-      }
-    }
-
-    .carousel-inner .carousel-item.active,
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
-      display: flex;
-    }
-
-    /* display 3 */
-    @media (min-width: 768px) {
-
-      .carousel-inner .carousel-item-right.active,
-      .carousel-inner .carousel-item-next {
-        transform: translateX(33.333%);
-      }
-
-      .carousel-inner .carousel-item-left.active,
-      .carousel-inner .carousel-item-prev {
-        transform: translateX(-33.333%);
-      }
-    }
-
-    .carousel-inner .carousel-item-right,
-    .carousel-inner .carousel-item-left {
-      transform: translateX(0);
-    }
-
-    .owl-carousel .owl-nav button.owl-next,
-    .owl-carousel .owl-nav button.owl-prev,
-    .owl-carousel button.owl-dot {
-      background: 0 0;
-      color: inherit;
-      border: none;
-      padding: 0 !important;
-      font-size: 2em !important;
-      letter-spacing: .1em;
-      text-align: center;
-    }
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font-size: 2em !important;
+  letter-spacing: .1em;
+  text-align: center;
+}
