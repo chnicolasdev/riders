@@ -103,7 +103,7 @@
                 <div class="col">
                     <h2 class="text-uppercase text-center pb-4">Nuestro Equipo</h2>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-md-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="col-12 i p-4">
