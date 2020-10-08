@@ -39,7 +39,7 @@
 
 
     <!-- sección características o similares -->
-    <section class="caracteristicas bg-light pb-5">
+    <!-- <section class="caracteristicas bg-light pb-5">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col-12">
@@ -94,19 +94,21 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <section class="bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 p-2">
-                    <div class="ih-item square colored effect10 left_to_right"><a>
+            <h2 class="text-center text-uppercase py-4">Nuestros servicios/ clases</h2>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 p-2 align-self-center">
+                    <div class="ih-item square colored effect10 left_to_right "><a>
+                       <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
                             <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
-                                <h3>Heading here</h3>
+                                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
@@ -118,11 +120,12 @@
                 </div>
                 <div class="col-md-4 p-2">
                     <div class="ih-item square colored effect10 top_to_bottom"><a>
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg4.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
-                                <h3>Heading here</h3>
+                                <h3>Lorem, ipsum dolor.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
@@ -134,11 +137,12 @@
                 </div>
                 <div class="col-md-4 p-2">
                     <div class="ih-item square colored effect10 right_to_left"><a>
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
-                                <h3>Heading here</h3>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
@@ -150,11 +154,11 @@
                 </div>
                 <div class="col-md-4 p-2">
                     <div class="ih-item square colored effect10 left_to_right"><a>
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg4.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
-                                <h3>Heading here</h3>
+                                <h3>Lorem, ipsum dolor.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
@@ -170,7 +174,7 @@
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
-                                <h3>Heading here</h3>
+                                <h3>Lorem, ipsum dolor.</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
