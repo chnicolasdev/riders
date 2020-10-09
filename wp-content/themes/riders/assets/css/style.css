@@ -1602,6 +1602,16 @@ VIDEO INICIO ESCUELA SURF
   background-position: center;
 }
 
+.escuela h1::after {
+  content: '';
+  width: 3em;
+  height: 4px;
+  background: currentColor;
+  /* background: red; */
+  display: block;
+  margin: 2rem auto;
+}
+
 /* ================================
 FIN VIDEO INICIO ESCUELA SURF
 ================================ */
@@ -1656,6 +1666,16 @@ h4 {
 
 
 /* =================SECCION PRECIOS=================  */
+.precios h2::after {
+  content: '';
+  width: 3em;
+  height: 4px;
+  background: currentColor;
+  /* background: red; */
+  display: block;
+  margin: 2rem auto;
+}
+
 .precios .card-header h4 {
   font-size: 1.34em !important;
   letter-spacing: none !important;
@@ -1828,7 +1848,16 @@ footer i {
 
 
 
-/*================= EQUIPO =====================*/
+/*================= SECCION EQUIPO =====================*/
+.ourTeam h2::after {
+  content: '';
+  width: 3em;
+  height: 4px;
+  background: currentColor;
+  /* background: red; */
+  display: block;
+  margin: 2rem auto;
+}
 
 /* cards2 */
 
@@ -2002,8 +2031,6 @@ footer i {
   }
 }
 
-
-
 @media screen and (max-width: 990px) and (min-width:768px) {
 
   .ourTeam .i .c .wrap .info .position {
@@ -2038,9 +2065,6 @@ footer i {
   }
 
 }
-
-
-/* --------------------------CARRUSEL-------------------------------- */
 @media (max-width: 768px) {
   .carousel-inner .carousel-item>div {
     display: none;
@@ -2088,7 +2112,17 @@ footer i {
   text-align: center;
 }
 
-/* SECCION SERVICIOS */
+/* ----------------------------SECCION SERVICIOS 2---------------------------------- */
+.servicios h2::after {
+  content: '';
+  width: 3em;
+  height: 4px;
+  background: currentColor;
+  /* background: red; */
+  display: block;
+  margin: 2rem auto;
+}
+
 .ih-item {
   position: relative;
   -webkit-transition: all 0.35s ease-in-out;
@@ -2114,7 +2148,7 @@ footer i {
 .ih-item img {
   width: 100%;
   height: 100%;
- filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 .ih-item.square {
@@ -2122,7 +2156,7 @@ footer i {
   display: inline-block;
   text-align: center;
   width: 350px;
-  height: 328px; 
+  height: 328px;
   /* border: 8px solid #fff; */
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -2154,7 +2188,7 @@ footer i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
 }
 
 .ih-item.square.effect10.colored .info {
@@ -2209,7 +2243,7 @@ footer i {
 .ih-item.square a:hover .titulo {
   visibility: hidden;
   /* opacity: 0.1; */
-  transition: all 0.15s ease-out;
+  transition: all 0.15s ease-in;
 }
 
 
@@ -2339,4 +2373,143 @@ footer i {
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+}
+
+@media screen and (max-width: 767px) and (min-width:576px) {
+  .ih-item.square {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 265px;
+    height: 250px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .ih-item.square.effect10 .info p {
+    font-style: italic;
+    font-size: 0.7em;
+    position: relative;
+    color: #bbb;
+    padding: 2px 20px 20px;
+    text-align: center;
+  }
+
+  .ih-item.square.effect10 .info h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+    /* background: #111111; */
+    margin: 25px 0 0 0;
+  }
+
+  .ih-item.square .titulo {
+    z-index: 100;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-shadow: 1px 2px 3px #666;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width:768px) {
+  .ih-item.square {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 238px;
+    height: 225px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .ih-item.square .titulo {
+    z-index: 100;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-shadow: 1px 2px 3px #666;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ih-item.square.effect10 .info h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 20px 5px 20px;
+    margin: 20px 0 0 0;
+  }
+
+  .ih-item.square.effect10 .info p {
+    font-style: italic;
+    font-size: 0.6em;
+    position: relative;
+    color: #bbb;
+    padding: 0px 12px 10px 12px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width:992px) {
+  .ih-item.square {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 310px;
+    height: 289px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .ih-item.square .titulo {
+    z-index: 100;
+    position: absolute;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-shadow: 1px 2px 3px #666;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ih-item.square.effect10 .info h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    margin: 20px 0 0 0;
+  }
+
+  .ih-item.square.effect10 .info p {
+    font-style: italic;
+    font-size: 0.78em;
+    position: relative;
+    color: #bbb;
+    padding: 0px 20px 10px;
+    text-align: center;
+  }
+}
+/* -----------------SECCION VIDEOS-------------- */
+.videos h2::after {
+  content: '';
+  width: 3em;
+  height: 4px;
+  background: currentColor;
+  /* background: red; */
+  display: block;
+  margin: 2rem auto;
 }

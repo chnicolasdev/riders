@@ -19,7 +19,7 @@
 
 
     <!-- INICIO - VIDEO DESCRIPTIVO -->
-    <section class="bg-info-escuela">
+    <section class="escuela bg-info-escuela">
         <div class="container-fluid">
             <h1 class="text-uppercase text-center my-3">Escuela de Surf Riders</h1>
             <div class="row d-flex  justify-content-center">
@@ -97,14 +97,16 @@
     </section> -->
 
 
-    <section class="bg-light">
+    <section class="servicios bg-light">
         <div class="container">
             <h2 class="text-center text-uppercase py-4">Nuestros servicios/ clases</h2>
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-4 p-2 align-self-center">
+                          <!-- <p class="lead text-center mt-0">Aquí una reseña que invite a la sección</p> -->
+            <div class="row text-center">
+
+                <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 left_to_right "><a>
                        <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
@@ -118,10 +120,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-12 col-sm-6 col-md-4 py-2 ">
                     <div class="ih-item square colored effect10 top_to_bottom"><a>
                     <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg4.jpg"
+                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
@@ -135,10 +137,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class=" col-12 col-sm-6 col-md-4 py-2 ">
                     <div class="ih-item square colored effect10 right_to_left"><a>
                     <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg3.jpg"
+                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
@@ -152,9 +154,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 left_to_right"><a>
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg4.jpg"
+                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
+                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
@@ -168,9 +171,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4  p-2">
+                <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 bottom_to_top"><a>
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
+                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
@@ -184,9 +188,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 p-2">
+                <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 right_to_left"><a>
-                            <div class="img"><img class="img" src="/riders/wp-content/themes/riders/img/bg1.jpg"
+                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
+                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
                                     alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
@@ -383,7 +388,7 @@
 
 
     <!-- VIDEOS ESCUELA -->
-    <section class="py-4 m-0">
+    <section class="videos py-4 m-0">
         <div class="container py-4">
             <h2 class="text-center py-4 text-uppercase">videos</h2>
             <div class="row">

@@ -69,8 +69,9 @@
                     </div>
                     <div class="col-md-4 px-4 pt-3 pb-0">
                         <div id="widget-contacto">
-                            <h2 class="title pb-2">Escríbenos</h2>
+                            <h2 class="title pb-2 text-center ">Escríbenos</h2>
                             <!-- <div role="form" class="wpcf7" id="wpcf7-f3979-o1" lang="es-ES" dir="ltr"></div> -->
+                            <div class="formulario">
                             <?php
                             $argsFormularioContacto = array(
                                     'cat' => 4,
@@ -91,6 +92,7 @@
                             <?php endif;
                             wp_reset_postdata();
                             ?>
+                            </div>
                         </div>
                     </div>
                 </div>
