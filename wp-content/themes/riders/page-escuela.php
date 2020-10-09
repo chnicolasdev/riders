@@ -100,14 +100,16 @@
     <section class="servicios bg-light">
         <div class="container">
             <h2 class="text-center text-uppercase py-4">Nuestros servicios/ clases</h2>
-                          <!-- <p class="lead text-center mt-0">Aquí una reseña que invite a la sección</p> -->
+            <!-- <p class="lead text-center mt-0">Aquí una reseña que invite a la sección</p> -->
             <div class="row text-center">
 
                 <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 left_to_right "><a>
-                       <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                    alt="card image" /></div>
+                            <div class="titulo h2">
+                                <p>Aprendizaje personalizado</p>
+                            </div>
+                            <div class="img"><img class="img img-fluid"
+                                    src="/riders/wp-content/themes/riders/img/bg1.jpg" alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem ipsum dolor sit amet consectetur.</h3>
@@ -122,9 +124,11 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 py-2 ">
                     <div class="ih-item square colored effect10 top_to_bottom"><a>
-                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
-                                    alt="card image" /></div>
+                            <div class="titulo h2">
+                                <p>Aprendizaje personalizado</p>
+                            </div>
+                            <div class="img"><img class="img img-fluid"
+                                    src="/riders/wp-content/themes/riders/img/bg4.jpg" alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem, ipsum dolor.</h3>
@@ -139,9 +143,11 @@
                 </div>
                 <div class=" col-12 col-sm-6 col-md-4 py-2 ">
                     <div class="ih-item square colored effect10 right_to_left"><a>
-                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg3.jpg"
-                                    alt="card image" /></div>
+                            <div class="titulo h2">
+                                <p>Aprendizaje personalizado</p>
+                            </div>
+                            <div class="img"><img class="img img-fluid"
+                                    src="/riders/wp-content/themes/riders/img/bg3.jpg" alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem ipsum dolor sit amet.</h3>
@@ -156,9 +162,11 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 left_to_right"><a>
-                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg4.jpg"
-                                    alt="card image" /></div>
+                            <div class="titulo h2">
+                                <p>Aprendizaje personalizado</p>
+                            </div>
+                            <div class="img"><img class="img img-fluid"
+                                    src="/riders/wp-content/themes/riders/img/bg4.jpg" alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem, ipsum dolor.</h3>
@@ -173,9 +181,11 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 bottom_to_top"><a>
-                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                    alt="card image" /></div>
+                            <div class="titulo h2">
+                                <p>Aprendizaje personalizado</p>
+                            </div>
+                            <div class="img"><img class="img img-fluid"
+                                    src="/riders/wp-content/themes/riders/img/bg1.jpg" alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem, ipsum dolor.</h3>
@@ -190,9 +200,11 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 py-2">
                     <div class="ih-item square colored effect10 right_to_left"><a>
-                    <div class="titulo h2"><p>Aprendizaje personalizado</p> </div> 
-                            <div class="img"><img class="img img-fluid" src="/riders/wp-content/themes/riders/img/bg1.jpg"
-                                    alt="card image" /></div>
+                            <div class="titulo h2">
+                                <p>Aprendizaje personalizado</p>
+                            </div>
+                            <div class="img"><img class="img img-fluid"
+                                    src="/riders/wp-content/themes/riders/img/bg1.jpg" alt="card image" /></div>
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Heading here</h3>
@@ -446,19 +458,20 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-md-6 col-sm-12 col-lg-6 d-none d-lg-block p-0 ">
-                    <div class="container p-0 m-0">
-
-                        <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid image">
-                        <div class="overlay">
-                            <div class="text">
-                                <h4>Nosotros</h4>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda quos,
-                                    similique provident id corrupti omnis impedit maxime officia quaerat, rem, cum
-                                    dolores reprehenderit quis dolorum ut. Vel optio odio, ut alias esse amet. Quas
-                                    libero similique dicta illo doloremque, rerum, reprehenderit velit maxime
-                                    assumenda
-                                    ipsam repellat sapiente consectetur odio.</p>
+                <div class="col-sm-12 col-md-12 col-lg-6 p-0">
+                    <div class="container-fluid p-0">
+                        <div class="s-nosotros ">
+                            <img src="/riders/wp-content/themes/riders/img/bg1.jpg" class="img-fluid image">
+                            <div class="overlay">
+                                <div class="text">
+                                    <h4>Nosotros</h4>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda quos,
+                                        similique provident id corrupti omnis impedit maxime officia quaerat, rem, cum
+                                        dolores reprehenderit quis dolorum ut. Vel optio odio, ut alias esse amet. Quas
+                                        libero similique dicta illo doloremque, rerum, reprehenderit velit maxime
+                                        assumenda
+                                        ipsam repellat sapiente consectetur odio.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1804,7 +1804,7 @@ footer i {
 /* =================FIN FOOTER=========== */
 
 /* ---------SECCION MISION VISION NOSOTROS--------- */
-.nosotros .container {
+.nosotros .container-fluid {
   position: relative;
   width: 100%;
 }
@@ -1828,7 +1828,7 @@ footer i {
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.container-fluid:hover .overlay {
   opacity: 0.9;
 }
 
@@ -1845,7 +1845,12 @@ footer i {
 .text h4 {
   font-size: 2rem;
 }
-
+@media screen and (max-width: 767px) and (min-width:576px) {
+  /* .text h4 {
+    font-size: 2rem;
+    padding: 130px 10px 20px 10px;
+} */
+}
 
 
 /*================= SECCION EQUIPO =====================*/
