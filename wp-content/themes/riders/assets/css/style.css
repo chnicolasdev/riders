@@ -1909,10 +1909,10 @@ footer i {
   position: absolute;
   top: 100%;
   width: 100%;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease
 }
 
 .ourTeam .i .c .wrap .info .name {
@@ -1933,10 +1933,10 @@ footer i {
   position: absolute;
   bottom: -100%;
   width: 100%;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease
 }
 
 .ourTeam .i .c .more p {
@@ -2105,9 +2105,14 @@ footer i {
   transform: translateX(0);
 }
 
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev
+{
+ 
+ display: none;
+}
+
 .owl-carousel button.owl-dot {
+  margin: 5px;
   background: 0 0;
   color: inherit;
   border: none;
@@ -2204,9 +2209,9 @@ footer i {
   background: rgba(12, 34, 52, 0.1);
 } */
 .ih-item.square.effect10 .img {
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.40s ease-in-out;
+  -moz-transition: all 0.40s ease-in-out;
+  transition: all 0.40s ease-in-out;
 
   /* opacity: 0.9; */
 }
@@ -2215,9 +2220,9 @@ footer i {
   background: #333333;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.40s ease-in-out;
+  -moz-transition: all 0.40s ease-in-out;
+  transition: all 0.40s ease-in-out;
 }
 
 .ih-item.square.effect10 .info h3 {
