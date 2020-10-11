@@ -1891,7 +1891,9 @@ footer i {
 }
 
 .ourTeam .i .c .wrap img {
-  width: 70%;
+  width: 240px;
+  height: 240px;
+  /* width: 70%; */
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;

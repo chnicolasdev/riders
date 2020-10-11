@@ -113,7 +113,7 @@
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
                                     commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
@@ -132,7 +132,7 @@
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem, ipsum dolor.</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
                                     commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
@@ -151,7 +151,7 @@
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem ipsum dolor sit amet.</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
                                     commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
@@ -170,7 +170,7 @@
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem, ipsum dolor.</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
                                     commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
@@ -189,7 +189,7 @@
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Lorem, ipsum dolor.</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
                                     commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
@@ -208,7 +208,7 @@
                             <div class="info">
                                 <!-- <i class="icofont-wind-waves"></i> -->
                                 <h3>Heading here</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
+                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis facere nulla
                                     aliquam consequuntur dignissimos ad minima quaerat, cupiditate expedita enim.
                                     Reiciendis quas maxime minus doloremque, ipsam natus perferendis vel quod quasi
                                     commodi dolorem ea. Explicabo, ipsam! Doloremque consectetur repellat pariatur
@@ -244,7 +244,7 @@
                                         </div>
                                     </div>
                                     <div class="more pb-5">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
@@ -266,7 +266,7 @@
                                         </div>
                                     </div>
                                     <div class="more pb-5">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
@@ -289,7 +289,7 @@
                                         </div>
                                     </div>
                                     <div class="more pb-5">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
@@ -312,7 +312,7 @@
                                         </div>
                                     </div>
                                     <div class="more pb-5">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
                                             voluptatibus maxime temporibus assumenda blanditiis rerum nostrum ullam
                                             deserunt, ex natus repellat odio laboriosam velit qui expedita doloremque?
                                             Cupiditate, a nihil!</p>
