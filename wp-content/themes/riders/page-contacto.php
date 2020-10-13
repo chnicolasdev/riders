@@ -6,14 +6,14 @@
 <section class="bg-header mb-0">
     <div class=" p-2 p-md-3 m-md-3 text-center">
         <div class="col-md-7 mx-auto my-5">
-            <h1 class="display-3 font-weight-normal">Escuela de Surf Riders</h1>
+            <h1 class="display-3 font-weight-normal">Contacto</h1>
             <!-- <p class="lead font-weight-normal">Contacto</p> -->
         </div>
     </div>
 </section>
 
-<section class="contacto">
-    <div class="container">
+<section class="contacto pb-0 mb-0">
+    <div class="container pb-0 mb-0">
         <div class="row">
             <!-- <div class="col-md-4">
                 <img class="img img-fluid img-thumbnail" src="/riders/wp-content/themes/riders/img/bg1.jpg"
@@ -22,16 +22,16 @@
 
             <div class="col-md-6 px-4">
                 <h1>No te pierdas</h1>
-                <!-- <p>¿Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt porro veritatis excepturi mollitia? Eos?</p> -->
+                <p>¿Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error incidunt porro veritatis excepturi mollitia? Eos?</p>
                 <div id="widget-info">
                     <!-- <img src="https://www.surftotoralillo.cl/wp-content/uploads/2016/10/logo-3.png" class="logotipo img-responsive">                     -->
 
                     <div id="ubicacion-contacto" class="py-2 ">
                         <h5 class=""><i class="icofont-street-view"></i> Dirección: </h5>
-                        <address>
-                            4 Esquinas con Avenida del Mar,
-                            La Serena, IV Región, Chile.
-                        </address>
+                        <p> 4 Esquinas con Avenida del Mar,
+                            La Serena, IV Región, Chile.</p>
+                           
+                       
                     </div>
 
                     <div id="telefono-contacto" class="py-0">
@@ -69,9 +69,9 @@
             <div class="col-md-6 p-4 mt-4">
                 <div id="widget-contacto">
                     <h2 class="title pb-2 text-center ">Escríbenos</h2>
-                    <p class=" text-justify">Puedes escribirnos también, solo rellena el siguiente formulario y envianos
+                    <!-- <p class=" text-justify">Puedes escribirnos también, solo rellena el siguiente formulario y envianos
                         tus
-                        dudas y te respondemos a la brevedad</p>
+                        dudas y te respondemos a la brevedad</p> -->
                     <!-- <div role="form" class="wpcf7" id="wpcf7-f3979-o1" lang="es-ES" dir="ltr"></div> -->
                     <div class="formulario">
                         <?php
@@ -100,23 +100,34 @@
         </div>
 
     </div>
-    <div class="maps container-fluid ">
-        <div class="row d-flex text-center">
+    <div class="maps container-fluid pt-4 px-0 mx-0 pb-0">
+        <div class="row">
             <div class="col-12 col-md-12 col-lg-12 align-content-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.7991470991583!2d-71.28135498439815!3d-29.927684032817012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca24660cc3df%3A0xa95eae2d21f7e89f!2sEscuela%20de%20Surf%20y%20Cafeteria%20Riders!5e0!3m2!1ses!2scl!4v1587096272961!5m2!1ses!2scl"
-                    width="1200px" height="600px" frameborder="0" style="border:0;" allowfullscreen=""
-                    aria-hidden="false" tabindex="0"></iframe>
+                    width="100%" height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
         </div>
     </div>
 </section>
+<div class="row pt-0 mt-0 text-light">
+    <div class="col-12 bg-primary text-center d-flex justify-content-center">
+        <div class="footer-copyright py-2">
+            <p> &copy Copyright <?php echo date('Y');?> | <?php bloginfo( 'name' ); ?> | Todos los
+                derechos Reservados</p>
+        </div>
+    </div>
+</div>
+<?php wp_footer(); ?>
 
+</body>
 
+</html>
 <!--=====================================
 		SE LLAMA AL FOOTER.PHP
 =======================================-->
-<?php get_footer(); ?>
+<?php /*get_footer(); ?>
 
 <?php
 			/*
