@@ -13,7 +13,7 @@
 </section>
 
 <section class="contacto pb-0 mb-0">
-    <div class="container pb-0 mb-0">
+    <div class="container pb-4">
         <div class="row">
             <!-- <div class="col-md-4">
                 <img class="img img-fluid img-thumbnail" src="/riders/wp-content/themes/riders/img/bg1.jpg"
@@ -66,9 +66,9 @@
                 </div>
             </div>
 
-            <div class="col-md-6 p-4 mt-4">
+            <div class="col-md-6 p-4 mt-4 bg-dark">
                 <div id="widget-contacto">
-                    <h2 class="title pb-2 text-center ">Escríbenos</h2>
+                    <h2 class="title pb-2 text-center text-light">Escríbenos</h2>
                     <!-- <p class=" text-justify">Puedes escribirnos también, solo rellena el siguiente formulario y envianos
                         tus
                         dudas y te respondemos a la brevedad</p> -->
@@ -100,8 +100,8 @@
         </div>
 
     </div>
-    <div class="maps container-fluid pt-4 px-0 mx-0 pb-0">
-        <div class="row">
+    <div class="maps container-fluid px-0 mx-0 pb-0 ">
+        <div class="row pb-0 mb-0">
             <div class="col-12 col-md-12 col-lg-12 align-content-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.7991470991583!2d-71.28135498439815!3d-29.927684032817012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca24660cc3df%3A0xa95eae2d21f7e89f!2sEscuela%20de%20Surf%20y%20Cafeteria%20Riders!5e0!3m2!1ses!2scl!4v1587096272961!5m2!1ses!2scl"

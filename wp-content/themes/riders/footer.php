@@ -12,10 +12,8 @@
 
                             <div id="ubicacion-contacto" class="">
                                 <h5 class=""> <i class="icofont-street-view"></i> Dirección: </h5>
-                                <address>
-                                    4 Esquinas con Avenida del Mar,
-                                    La Serena, IV Región, Chile.
-                                </address>
+                                <p> 4 Esquinas con Avenida del Mar,
+                                    La Serena, IV Región, Chile.</p>
                             </div>
                             <hr>
                             <div id="telefono-contacto" class="">

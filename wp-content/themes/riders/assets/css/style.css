@@ -11,9 +11,9 @@
 body {
 
   /* font-family: 'Carter One', cursive; */
-  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
   /* font-family: 'Righteous', cursive; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #444444;
 }
 
@@ -2544,11 +2544,11 @@ footer i {
   margin: 0 auto;
   display: block;
   text-align: center;
-  color: #2079b0;
+  color:white;
   border-radius: 6px;
   background: transparent;
-  /* background-color: #0069d9; */
-  border: 2px solid #0099CC;
+  background-color: rgba(0, 0, 0, 0.08);
+  border: 2px solid #dcf0f7;
   /* border-radius: 28px;text-shadow: 3px 2px 1px #9daef5; */
   /* box-shadow: 6px 5px 24px #666666; */
 }
@@ -2608,4 +2608,12 @@ footer i {
   display: block;
   width: 90%;
 
+}
+.contacto .formulario textarea{
+  /* height: 120px !important; 0*/
+  width: 100%;
+  /* margin:5px 20px 5px 20px; */
+}
+.contacto .maps{
+  background-color: #007BFF;
 }
