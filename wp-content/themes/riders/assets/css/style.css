@@ -44,8 +44,8 @@ h1,
 h2,
 h3,
 h4,
-h5,
-p {
+h5 {
+/* p { */
   /* font-family: 'Righteous', cursive; */
    font-family: 'Josefin Sans', sans-serif;
   /* font-family: 'Roboto', sans-serif; */
@@ -80,14 +80,6 @@ p {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -233,20 +225,6 @@ p {
   font-family: IcoFont;
   position: absolute;
   right: 15px;
-}
-
-@media (max-width: 1366px) {
-  .nav-menu .drop-down .drop-down ul {
-    left: -90%;
-  }
-
-  .nav-menu .drop-down .drop-down:hover>ul {
-    left: -100%;
-  }
-
-  .nav-menu .drop-down .drop-down>a:after {
-    content: "\ea9d";
-  }
 }
 
 /* Mobile Navigation */
@@ -433,26 +411,6 @@ p {
   text-decoration: none;
 }
 
-@media (min-width: 1024px) {
-  #hero p {
-    width: 60%;
-  }
-
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-    width: 5%;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero .carousel-container {
-    height: 90vh;
-  }
-
-  #hero h2 {
-    font-size: 28px;
-  }
-}
 
 .hero-waves {
   display: block;
@@ -545,10 +503,10 @@ p {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/* section {
   padding: 60px 0;
   overflow: hidden;
-}
+} */
 
 .section-title {
   padding-bottom: 40px;
@@ -686,23 +644,6 @@ section {
   border-color: #1367d0;
 }
 
-@media (max-width: 768px) {
-  .features .nav-link i {
-    padding: 0;
-    line-height: 1;
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 575px) {
-  .features .nav-link {
-    padding: 15px;
-  }
-
-  .features .nav-link i {
-    font-size: 24px;
-  }
-}
 
 .features .tab-content {
   margin-top: 30px;
@@ -773,24 +714,10 @@ section {
   color: #1367d0;
 }
 
-@media (max-width: 1024px) {
-  .cta {
-    background-attachment: scroll;
-  }
-}
-
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -840,7 +767,7 @@ section {
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1052,11 +979,6 @@ section {
   background-color: #1367d0 !important;
 }
 
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1493,19 +1415,6 @@ section {
   content: "/";
 }
 
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1585,13 +1494,6 @@ section {
   padding: 0 0 0 0;
 }
 
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
-
 /* ================================
 VIDEO INICIO ESCUELA SURF
 ================================ */
@@ -1603,7 +1505,7 @@ VIDEO INICIO ESCUELA SURF
   background-position: center;
 }
 
-.escuela h1::after {
+.bg-info-escuela h1::after {
   content: '';
   width: 3em;
   height: 4px;
@@ -1650,21 +1552,6 @@ h4 {
   line-height: 1.8em;
 } */
 
-@media screen and (max-width: 991px) and (min-width:768px) {
-  .box i {
-    font-size: 3.5rem;
-  }
-
-  .box h4 {
-    font-size: 1rem;
-  }
-
-  .box p {
-    font-size: 0.8rem;
-  }
-
-}
-
 
 /* =================SECCION PRECIOS=================  */
 .precios h2::after {
@@ -1708,25 +1595,7 @@ h4 {
   background-position: center;
 }
 
-@media screen and (max-width: 992px) and (min-width:768px) {
-  /* .precios h4 {
-    font-size: 1.2rem;
-  } */
 
-  /* .precios h1 {
-    font-size: 1.4rem;
-  } */
-  .precios .card-header h4 {
-    font-size: 1.1em !important;
-    letter-spacing: none !important;
-    font-weight: bold;
-  }
-
-  .precios .card-body h1 {
-    font-size: 2.3em !important;
-    letter-spacing: none !important;
-  }
-}
 
 /* ================= FIN SECCION PRECIOS=================  */
 
@@ -1755,13 +1624,17 @@ h4 {
   height: 100% !important;
 }
 
-.pie {
+.pie 
+{
   background-color: #034178;
 }
 
-footer h2 {
-  color: #05D1F4;
+.pie ul 
+{
+	list-style: none;
+	padding-left: 0px;
 }
+
 
 footer a {
   color: white;
@@ -1771,10 +1644,7 @@ footer i {
   color: #4daafc;
 }
 
-.pie ul {
-  list-style: none;
-  padding-left: 0px;
-}
+
 
 .social-media {
   width: 50%;
@@ -1962,146 +1832,6 @@ footer i {
   bottom: 0
 }
 
-@media screen and (max-width: 504px) and (min-width:430px) {
-
-
-
-  .ourTeam .i .c .wrap .info .name {
-    margin: 0;
-    font-size: 2.4rem;
-    font-weight: 800;
-    margin: 0 0 8px 0
-  }
-
-  .ourTeam .i .c .wrap .info .position {
-    /* margin: 0; */
-    margin: 10px 20px 15px 20px;
-    font-size: 1em;
-    color: #03305b9a;
-  }
-
-  .ourTeam .i .c .more p {
-    /* text-align: justify; */
-    margin: 0 30px 50px 30px;
-    line-height: 1.7em;
-  }
-
-  .ourTeam .i .c:hover .info {
-    top: 0.4rem;
-  }
-
-  .ourTeam .i .c:hover .more {
-    bottom: 0.9rem;
-  }
-
-}
-
-@media screen and (max-width: 575px) and (min-width:505px) {
-
-  .ourTeam .i .c .wrap .info .name {
-    margin: 0;
-    font-size: 24px;
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin: 0 0 8px 0
-  }
-
-  .ourTeam .i .c .wrap .info .position {
-    margin: 0;
-    font-size: 1em;
-    color: #03305b9a;
-  }
-
-  .ourTeam .i .c .more p {
-    margin: 0 40px 140px 40px;
-    line-height: 1.7em;
-  }
-}
-
-@media screen and (max-width: 767px) and (min-width:575px) {
-  .ourTeam .i .c .wrap .info .name {
-    margin: 0;
-    font-size: 24px;
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin: 0 0 8px 0
-  }
-
-  .ourTeam .i .c .wrap .info .position {
-    margin: 0;
-    font-size: 1em;
-    color: #03305b9a;
-  }
-
-  .ourTeam .i .c .more p {
-    margin: 0 40px 160px 40px;
-    line-height: 1.7em;
-  }
-}
-
-@media screen and (max-width: 990px) and (min-width:768px) {
-
-  .ourTeam .i .c .wrap .info .position {
-    margin: 0;
-    font-size: 1em;
-    color: #03305b9a;
-  }
-
-  .ourTeam .i .c .more p {
-    margin: 0 18px -25px 18px;
-    line-height: 25px
-  }
-}
-
-@media screen and (max-width: 1199px) and (min-width:991px) {
-  .ourTeam .i .c .wrap .info .name {
-    /* margin: 0; */
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin: 0 0 8px 0
-  }
-
-  .ourTeam .i .c .wrap .info .position {
-    margin: 0 0 80px 0;
-    font-size: 1em;
-    color: #03305b9a;
-  }
-
-  .ourTeam .i .c .more p {
-    margin: 0px 15px -50px 15px !important;
-    line-height: 22px;
-  }
-
-}
-@media (max-width: 768px) {
-  .carousel-inner .carousel-item>div {
-    display: none;
-  }
-
-  .carousel-inner .carousel-item>div:first-child {
-    display: block;
-  }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
-}
-
-/* display 3 */
-@media (min-width: 768px) {
-
-  .carousel-inner .carousel-item-right.active,
-  .carousel-inner .carousel-item-next {
-    transform: translateX(33.333%);
-  }
-
-  .carousel-inner .carousel-item-left.active,
-  .carousel-inner .carousel-item-prev {
-    transform: translateX(-33.333%);
-  }
-}
 
 .carousel-inner .carousel-item-right,
 .carousel-inner .carousel-item-left {
@@ -2528,6 +2258,16 @@ footer i {
 }
 
 /* -----------------SECCION CONTACTO-------------------- */
+
+.bg-contacto {
+	background-image: linear-gradient(to bottom, rgba(221, 220, 248, 0.446) 0%, #DAEBF3 70%), url(/riders/wp-content/themes/riders/img/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+  }
+
+  
 .contacto h1::after {
   content: '';
   text-align: left;
@@ -2607,7 +2347,7 @@ footer i {
   margin:.5rem auto;
   display: block;
   width: 90%;
-
+  color: white;
 }
 .contacto .formulario textarea{
   /* height: 120px !important; 0*/
@@ -2616,4 +2356,214 @@ footer i {
 }
 .contacto .maps{
   background-color: #007BFF;
+}
+
+.contacto ul li 
+{
+  list-style: none;
+}
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////// */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700,900&display=swap');
+
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+
+#footer-top {
+    padding: 40px 0 15px;
+}
+
+
+#reportes-olas #titulo-olas::before {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: '';
+    display: block;
+    top: 23px;
+    position: absolute;
+    z-index: 1;
+}
+
+#reportes-olas #titulo-olas h3 {
+    /* font-family: "Oswald"; */
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    display: table;
+    margin: 10px auto;
+    z-index: 5;
+    position: relative;
+    padding: 0 18px;
+}
+
+.bg-black
+{
+    background-color: black !important;
+}
+
+.bg-riders
+{
+    background-color: #062a54 !important;
+}
+
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.btn-riders
+{
+    font-size: 14px;
+    background-color: #062a54 !important;
+    color: white;
+    border-radius: 0px;
+}
+
+#btn-ver-departamentos:hover,
+#btn-ver-departamentos:focus
+{
+    background-color: #333333 !important;
+    color: white;
+}
+
+
+
+/* ================== */
+/* NAVBAR */
+/* ================== */
+nav ul li a.nav-link:hover,
+nav ul li a.nav-link:focus,
+nav ul li a.nav-link:active,
+nav .navbar-nav .active>.nav-link,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show,
+nav .navbar-nav .show>.nav-link
+{
+    color: white !important;
+}
+/* ================== */
+
+
+
+
+
+
+
+/* ================== */
+/* FOOTER */
+/* ================== */
+footer a
+{
+    color: white;
+    font-size: 12px;
+}
+
+footer p
+{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+footer #texto-informativo
+{
+    font-size: 10px;
+}
+/* ================== */
+
+
+
+
+
+.img-cover
+{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    background-position: center center;
+}
+
+
+.img-contain
+{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+    background-position: center center;
+}
+
+
+
+#slider-riders
+{
+    min-height:600px;
+}
+
+
+#inicio_riders
+{
+    background-image: url('../img/home-inicio.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100vh;
+    background-position: center center;
+
+}
+
+#inicio_proyecto
+{
+    background-image: url('../img/wallpaper-concreto.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100vh;
+    background-position: center center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SECCION HOME */
+#main .texto-cuadro
+{
+	position: absolute;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    font-size: 40px;
 }

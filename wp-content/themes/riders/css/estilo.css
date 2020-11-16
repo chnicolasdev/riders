@@ -114,29 +114,6 @@ footer #texto-informativo
 
 
 
-/* ================== */
-/* PAGE DEPARTAMENTOS */
-/* ================== */
-#departamentos p
-{
-    color: #182D45;
-}
-/* ================== */
-
-
-
-
-
-/* ================== */
-/* PAGE ENTORNO */
-/* ================== */
-#entorno p
-{
-    font-size: 15px;
-}
-
-
-
 
 
 .img-cover
@@ -170,7 +147,7 @@ footer #texto-informativo
 }
 
 
-#inicio_descubre
+#inicio_riders
 {
     background-image: url('../img/home-inicio.jpg');
     background-repeat: no-repeat;
@@ -183,8 +160,6 @@ footer #texto-informativo
     background-position: center center;
 
 }
-
-
 
 #inicio_proyecto
 {

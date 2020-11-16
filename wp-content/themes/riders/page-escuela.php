@@ -19,11 +19,11 @@
 
 
     <!-- INICIO - VIDEO DESCRIPTIVO -->
-    <section class="escuela bg-info-escuela">
-        <div class="container-fluid">
+    <section class="bg-info-escuela py-5">
+        <div class="container-fluid py-5 ">
             <h1 class="text-uppercase text-center my-3">Escuela de Surf Riders</h1>
-            <div class="row d-flex  justify-content-center">
-                <div class="col-8 align-content-center">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe width="100%" src="https://www.youtube.com/embed/O8dTFcbs7kM" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -34,70 +34,8 @@
         </div>
     </section>
 
-    <!-- FIN INICIO - VIDEO DESCRIPTIVO -->
-
-
-
-    <!-- sección características o similares -->
-    <!-- <section class="caracteristicas bg-light pb-5">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col-12">
-                    <h2 class="text-uppercase">nuestros servicios</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class=" col-md-4 my-auto pb-sm-4">
-                    <div class="box p-4 rounded ">
-                        <i class="icofont-wind-waves"></i>
-                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit
-                            amet consectetur adipisicing.</p>
-                    </div>
-                </div>
-                <div class=" col-md-4  my-auto  pb-sm-4">
-                    <div class="box p-4 rounded">
-                        <i class="icofont-wave"></i>
-                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                    </div>
-                </div>
-                <div class=" col-md-4  my-auto  pb-sm-4 ">
-                    <div class="box p-4 rounded">
-                        <i class="icofont-swimmer"></i>
-                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum dolor sit
-                            amet.</p>
-                    </div>
-                </div>
-                <div class=" col-md-4  my-auto  pb-sm-4">
-                    <div class="box p-4 rounded">
-                        <i class="icofont-wind-waves"></i>
-                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                    </div>
-                </div>
-                <div class=" col-md-4  my-auto  pb-sm-4">
-                    <div class="box p-4 rounded">
-                        <i class="icofont-swimmer"></i>
-                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod. Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Laboriosam, sapiente.</p>
-                    </div>
-                </div>
-                <div class=" col-md-4  my-auto  pb-sm-4">
-                    <div class="box p-4 rounded">
-                        <i class="icofont-wave"></i>
-                        <h4 class="py-2">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quod.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-    <section class="servicios bg-light">
+    <!-- SERVICIOS -->
+    <section class="servicios bg-light py-5">
         <div class="container">
             <h2 class="text-center text-uppercase py-4">Nuestros servicios/ clases</h2>
             <!-- <p class="lead text-center mt-0">Aquí una reseña que invite a la sección</p> -->
@@ -222,7 +160,7 @@
     </section>
 
     <!--============= SECCION NUESTRO EQUIPO =======================-->
-    <section class="ourTeam">
+    <section class="ourTeam py-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -326,14 +264,11 @@
             </div>
         </div>
     </section>
-
-
     <!--============= FIN SECCION NUESTRO EQUIPO =======================-->
 
 
-
     <!-- PRECIOS / VALOR -->
-    <section class="precios py-4 mt-0 bg-info-precios" id="precios">
+    <section class="precios bg-info-precios py-5" id="precios">
         <div class="container py-4 ">
             <h2 class=" text-center py-4 text-uppercase">precios</h2>
             <div class="row">
@@ -352,7 +287,7 @@
                                 <li>Lorem ipsum dolor sit amet.</li>
                                 <!-- Consta de 1 1/2 hrs. donde te pasamos traje,  tabla e Instructor. Ven a vivir una de las mejores experiencias en el mar junto a nosotros, escuela de surf Riders.  -->
                             </ul>
-                            <a href="#" class="btn btn-primary btn-lg">Comprar</a>
+                            <a href="#" class="btn btn-primary btn-lg">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -370,7 +305,7 @@
                                 <li>Lorem ipsum dolor sit.</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
-                            <button class="btn btn-primary btn-lg">Comprar</button>
+                            <button class="btn btn-primary btn-lg">Ver más</button>
                             <!-- <a href="#" class="btn btn-primary btn-lg">Más Información</a> -->
                         </div>
                     </div>
@@ -388,7 +323,7 @@
                                 <li>Lorem ipsum dolor sit.</li>
                                 <li>Lorem ipsum dolor sit amet.</li>
                             </ul>
-                            <a href="#" class="btn btn-primary btn-lg">Comprar</a>
+                            <a href="#" class="btn btn-primary btn-lg">Ver más</a>
                         </div>
                     </div>
                 </div>
@@ -398,9 +333,8 @@
     <!-- FIN PRECIOS / VALOR -->
 
 
-
     <!-- VIDEOS ESCUELA -->
-    <section class="videos py-4 m-0">
+    <section class="videos py-5">
         <div class="container py-4">
             <h2 class="text-center py-4 text-uppercase">videos</h2>
             <div class="row">
@@ -432,7 +366,8 @@
 
 
     <!-- SECCION QUIENES SOMOS / MISION VISION -->
-    <section id="" class="nosotros py-0 my-0">
+    <?php /*
+    <section class="nosotros py-0 my-0">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class=" col-sm-12 col-lg-6 ">
@@ -481,6 +416,10 @@
         </div>
     </section>
     <!-- FIN SECCION QUIENES SOMOS / MISION VISION -->
+    */ ?>
+
+
+
 
 
     <?php

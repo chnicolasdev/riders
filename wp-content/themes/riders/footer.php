@@ -1,12 +1,12 @@
     <!-- ======= Footer ======= -->
 
 
-    <section class="pie text-white pb-0 pt-3" id="contacto">
-        <footer id="footer-top" class="pt-2">
+    <section class="pie text-white pb-1 pt-5" id="contacto">
+        <footer>
             <div class="container-fluid ">
                 <div class="row mt-3 ">
                     <div class="col-md-3 px-4 py-3">
-                        <h2 class="title pb-4 text-center">Contacto</h2>
+                        <h2 class="pb-4 text-white text-center">Contacto</h2>
                         <div id="widget-info">
                             <!-- <img src="https://www.surftotoralillo.cl/wp-content/uploads/2016/10/logo-3.png" class="logotipo img-responsive">                     -->
 
@@ -46,17 +46,11 @@
                             </div>
                             <hr>
                         </div>
-                        <!-- <div class="row text-center">
-                            <div class="col align-self-end">
-                                <img src="<?php bloginfo('template_url') ?>/img/logo-nav.jpg"
-                                    class="img-fluid logotipo w-25">
-                            </div>
-                        </div> -->
                     </div>
 
-                    <div class="col-md-5 px-2 text-center py-3">
+                    <div class="col-md-5 px-2 py-3">
                         <div id="widget-ubicacion">
-                            <h2 class="title pb-4">Ubicación</h2>
+                            <h2 class="pb-4 text-white text-center">Ubicación</h2>
                             <div id="mapa" class="text-center">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.7991470991583!2d-71.28135498439815!3d-29.927684032817012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca24660cc3df%3A0xa95eae2d21f7e89f!2sEscuela%20de%20Surf%20y%20Cafeteria%20Riders!5e0!3m2!1ses!2scl!4v1587096272961!5m2!1ses!2scl"
@@ -65,9 +59,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 px-4 pt-3 pb-0">
+                    <div class="col-md-4 px-4 pt-3 pb-0 ">
                         <div id="widget-contacto">
-                            <h2 class="title pb-2 text-center ">Escríbenos</h2>
+                            <h2 class="pb-2 text-white text-center">Escríbenos</h2>
                             <!-- <div role="form" class="wpcf7" id="wpcf7-f3979-o1" lang="es-ES" dir="ltr"></div> -->
                             <div class="formulario">
                             <?php

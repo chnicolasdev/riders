@@ -20,6 +20,7 @@ function riders_script_enqueue()
 	wp_enqueue_style('owl.theme.carousel', get_template_directory_uri() . '/assets/vendor/owl.carousel/assets/owl.theme.default.min.css', array(), '4.2.12', 'all');
 	wp_enqueue_style('aos', get_template_directory_uri() . '/assets/vendor/aos/aos.css', array(), '1.0.0', 'all');
 	wp_enqueue_style('theme', get_template_directory_uri() . '/assets/css/style.css', array(), '1.0.0', 'all');
+	wp_enqueue_style('mediaquery', get_template_directory_uri() . '/assets/css/media_query.css', array(), '1.0.0', 'all');
 
 	
 
@@ -75,4 +76,4 @@ add_theme_support('post-thumbnails');
 
 
 // Register custom navigation walker
-// require_once('wp-bootstrap-navwalker.php');
+require_once('wp-bootstrap-navwalker.php');
