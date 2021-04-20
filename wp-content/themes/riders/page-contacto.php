@@ -98,7 +98,7 @@
 	</div>
 	
     <div class="maps">
-		<div class="col-12 text-center">
+		<div class="col-12 text-center px-0">
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.7991470991583!2d-71.28135498439815!3d-29.927684032817012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691ca24660cc3df%3A0xa95eae2d21f7e89f!2sEscuela%20de%20Surf%20y%20Cafeteria%20Riders!5e0!3m2!1ses!2scl!4v1587096272961!5m2!1ses!2scl"
 				width="100%" height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"

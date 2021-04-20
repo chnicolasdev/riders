@@ -9,7 +9,8 @@ function riders_script_enqueue()
 	// wp_enqueue_style('estilocss', get_template_directory_uri() . '/css/estilo.css', array(), '1.0.0', 'all');
 	// THEME
 
-	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.min.css', array(), '4.3.1', 'all');
+	// wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.min.css', array(), '4.3.1', 'all');
+	wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.css', array(), '4.3.1', 'all');
 	wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/vendor/icofont/icofont.min.css', array(), '4.2.12', 'all');
 	wp_enqueue_style('boxicons', get_template_directory_uri() . '/assets/vendor/boxicons/css/boxicons.min.css', array(), '1.0.0', 'all');
 	wp_enqueue_style('animate', get_template_directory_uri() . '/assets/vendor/animate.css/animate.min.css', array(), '4.3.1', 'all');
